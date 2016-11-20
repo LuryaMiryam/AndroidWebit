@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/line"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical">
+
+        <View
+            android:id="@+id/view_a"
+            android:layout_width="1dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/black" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_toEndOf="@+id/view_a"
+            android:text="fffffffffffffff" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/textViewTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewDate"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/view_a"
+            android:text="fffffffffffffff" />
+
+        <ImageButton
+            android:id="@+id/waseIB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/icon_waze"
+            android:visibility="gone"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

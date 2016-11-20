@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bthere</string>
+    <string name="Cancel">cancel</string>
+    <string name="Advertisement">advertising... advertising... advertising... advertising... advertising...</string>
+    <string name="Languages">language</string>
+    <string name="no_connection">you are offline!</string>
+    <string name="yes">yes</string>
+    <string name="year">year</string>
+    <string name="Existed_user">existing user </string>
+    <string name="Wait_for_loading_the_results">wait for search results</string>
+    <string name="_question_"><![CDATA[common q&a]]></string>
+    <string name="about_the_application">about the app hgj jhbugvb jhbgghujfcrt hjfgvdy hgyfgt fgv tyftyder tgders dxcgvh yuhfgr5dse dersde4 </string>
+    <string name="about_us">about our company</string>
+    <string name="add_customer">add client</string>
+    <string name="add_new_worker">add new client</string>
+    <string name="add_operation">add item on sale</string>
+    <string name="add_question">add question</string>
+    <string name="add_sale">add item on sale</string>
+    <string name="add_service">add servise/product</string>
+    <string name="add_worker">add employee</string>
+    <string name="addbreak">add shift breaks +</string>
+    <string name="adrerror">wrong address</string>
+    <string name="adress">address</string>
+    <string name="advanced_search">advanced search</string>
+    <string name="al_90th_minute">last mimute </string>
+    <string name="al_c_20">20 min before appointment</string>
+    <string name="al_c_90">last minutes sales</string>
+    <string name="al_c_new">news and updates</string>
+    <string name="al_c_ok_b">verification from local business</string>
+    <string name="al_c_ok_wait">waiting list updates</string>
+    <string name="al_cus_1_text">alert type</string>
+    <string name="al_cus_2_text">alert frequency</string>
+    <string name="al_customer_retention">client detection</string>
+    <string name="al_incoming_data">specific appointment update</string>
+    <string name="al_meet_text">alert type</string>
+    <string name="al_min_text">set alarm before appointment</string>
+    <string name="al_push_updates">clients events</string>
+    <string name="al_remark">(for statistics and time accuracy)</string>
+    <string name="al_sign_in_or_out">10 min before appointment</string>
+    <string name="al_up_1_text">update type</string>
+    <string name="al_up_2_text">frequency</string>
+    <string name="alerts">Notifications</string>
+    <string name="allDays">mark all days</string>
+    <string name="appointment_deatils">appointment details</string>
+    <string name="appointments">appointments</string>
+    <string name="appointments_of_client">appointments for client</string>
+    <string name="area">section</string>
+    <string name="areaD">region</string>
+    <string name="attention">message</string>
+    <string name="b_credit">credit</string>
+    <string name="b_payment">Payment</string>
+    <string name="b_payment_how">pay with</string>
+    <string name="b_phone">phone</string>
+    <string name="b_phone_error">please enter a valid phone number</string>
+    <string name="back">return</string>
+    <string name="begin_hour">opening hour</string>
+    <string name="block">block</string>
+    <string name="block_hours">block specific hours</string>
+    <string name="born_date">date of birth</string>
+    <string name="breaks">breaks</string>
+    <string name="break_">breaks: %1$s</string>
+    <string name="bus_activity_time">*working hours</string>
+    <string name="bus_area">*type of business</string>
+    <string name="bus_calendar_set">appointments settings</string>
+    <string name="bus_contact_synchrun">Confirm Contacts</string>
+    <string name="bus_contact_synchrun_ok">do you want all of your cantacts to be registered as clietns?</string>
+    <string name="bus_contact_synchrun_que">would you like to choose your cluents manually from your cotacts list?</string>
+    <string name="bus_det_user">client details</string>
+    <string name="bus_employee">add employee</string>
+    <string name="bus_fname">first name</string>
+    <string name="bus_general_data">General Details</string>
+    <string name="bus_lname">last name</string>
+    <string name="bus_services">*products and services</string>
+    <string name="bus_slogan">catch phrase/slogen</string>
+    <string name="business_adress">address</string>
+    <string name="business_ch_p">id/cn(company number according to registrar of companies)</string>
+    <string name="business_email">email address</string>
+    <string name="business_fax">fax number</string>
+    <string name="business_name">name of company</string>
+    <string name="business_phone">business phone number</string>
+    <string name="business_site">formal web address</string>
+    <string name="business_site_error">oops! Invalid website address</string>
+    <string name="business_the_datails_title">Business Details</string>
+    <!--<string name="business_the_datails_title">business general details</string>-->
+    <string name="bussiness_name_error">please enter valid business name</string>
+    <string name="bussiness_page">to the business page</string>
+    <string name="by_my_location">by current location</string>
+    <string name="cal_f_view_text">basic calender view</string>
+    <string name="call">dial</string>
+    <string name="camera">picture</string>
+    <string name="camera_">camera</string>
+    <string name="camera_to">take picture</string>
+    <string name="cancel">decline</string>
+    <string name="cancel_open">cancel</string>
+    <string name="cancel_qweue">cancel this appointment</string>
+    <string name="cancel_qweue_">cancel this appointment</string>
+    <string name="cannot_in_this_state">sorry :) you can\'t make an appointment in view mode. Please exit view mode and try again</string>
+    <string name="change_picture">change picture</string>
+    <string name="change_place">change location</string>
+    <string name="checking_a_few">(you can mark many)</string>
+    <string name="chet_pe_error">please enter valid cn (company number according to registrar of companies)</string>
+    <string name="choose">ok</string>
+    <string name="choose_checked">invite all marked appointments</string>
+    <string name="choose_contact_list">choose clients from your contacts list </string>
+    <string name="choose_delete">you\'ve choosed to clear from your clients list:</string>
+    <string name="choose_from_gallery">choose from photo gallery</string>
+    <string name="choose_give_service_">please choose your business first</string>
+    <string name="choose_many">multiple choise</string>
+    <string name="choose_provider_">choose the employee first</string>
+    <string name="choose_service">choose the service you need</string>
+    <string name="choose_to_cancel">you\'ve choosed to cancel %1$s\'s appointment</string>
+    <string name="choose_to_cancel_by">you\'ve choosed to cancel your apoointment at:</string>
+    <string name="city">city</string>
+    <string name="client">mupltiple clients selection</string>
+    <string name="client_details">client details</string>
+    <string name="client_min">minimal number of clients</string>
+    <string name="clients">clients </string>
+    <string name="comments">notes</string>
+    <string name="connect">login</string>
+    <string name="contact_list_answer1">we offer you to publish your business</string>
+    <string name="contact_list_answer2">24/7 and keep your clients closer than ever.syncronizing your contacts list in your phone will help you and clients save precious time. Each client can see your schedule and set his own appointment in just a click - whenever you can, wherever your client is.</string>
+    <string name="contact_list_string">why sould you cync your cantacts list? The answer is simple</string>
+    <string name="continue2">continue</string>
+    <string name="continue_">register</string>
+    <string name="credit_card">pay with credit card</string>
+    <string name="customer">client</string>
+    <string name="d1">a</string>
+    <string name="d2">b</string>
+    <string name="d3">c</string>
+    <string name="d4">d</string>
+    <string name="d5">e</string>
+    <string name="d6">f</string>
+    <string name="date">date</string>
+    <string name="dateLike">wanted date</string>
+    <string name="date_of_marriage">your marriage date</string>
+    <string name="dateerror">please enter valid birthday</string>
+    <string name="day">day</string>
+    <string name="day1">Sunday</string>
+    <string name="day2">Monday</string>
+    <string name="day3">Tuesday</string>
+    <string name="day4">Wednesday</string>
+    <string name="day5">Thursday</string>
+    <string name="day6">Friday</string>
+    <string name="day_name">day</string>
+    <string name="definitions">settings</string>
+    <string name="delay">slight late</string>
+    <string name="delete">delete</string>
+    <string name="delete_cus">remove client</string>
+    <string name="delete_customer">remove client</string>
+    <string name="delete_q">are you sure you want do remove</string>
+    <string name="det_app_date_txt">date</string>
+    <string name="det_app_give_service_txt">employee</string>
+    <string name="det_app_hour_txt">time</string>
+    <!--<string name="det_app_type_service_txt">type of service</string>-->
+    <string name="det_app_type_service_txt">service\'s type</string>
+    <string name="details_not_exist">we are sorry, but the username or password you\'ve entered are wrong</string>
+    <string name="details_qweue">appointment details </string>
+    <string name="discount">special discount for inviting several appointments/products</string>
+    <string name="distance">sidtance</string>
+    <string name="domain">section</string>
+    <string name="eDate">the date cannot be earlier than today</string>
+    <string name="eEmpty">don\'t forget to fill all mandatory fields :)</string>
+    <string name="eNumbers">enter 3 digits</string>
+    <string name="eTz">please enter valid id</string>
+    <string name="empty_fields">there are a few missing details, please fill them again</string>
+    <string name="empty_hours">plwase enter valid time of the day</string>
+    <string name="end_hour_">ending time</string>
+    <string name="enter">continune</string>
+    <string name="enterText">enter your text here</string>
+    <string name="enter_hour">fill time!</string>
+    <string name="enter_hour_period">enter tomr that is in working time</string>
+    <string name="enter_hour_valid">enter valid time</string>
+    <string name="enter_marriage">please enter your marriage date as you signes up with</string>
+    <string name="enter_subject">enter the section of this service</string>
+    <string name="enter_txt">enter your text here</string>
+    <string name="enter_valid_date">enter valid date</string>
+    <string name="erase_provider">delete</string>
+    <string name="errRegulations">you have to accept the user and privacy agreement</string>
+    <string name="error_all_empty">you have to choose atleast one search option</string>
+    <string name="error_empty">this is a necessary field</string>
+    <string name="error_empty1">please fill all missing details</string>
+    <string name="error_hours">opening time is later than closing time :) please try again</string>
+    <string name="error_in_register_to_provider">there has been an error during your registeration as a business</string>
+    <string name="error_in_send">there has been a problem during sending the details. Please try again :)</string>
+    <string name="error_number">please enter valid number</string>
+    <string name="error_register">enter the right business</string>
+    <string name="error_server">you already exist in our database</string>
+    <string name="errornumbers">enter 3 digits</string>
+    <string name="event_name">name of event</string>
+    <string name="existed_mail_for_worker">this email is already signed for another employee</string>
+    <string name="existed_phone_for_worker">this phone number is already signed for another employee</string>
+    <string name="existed_user">existing user</string>
+    <string name="exists_mail_error">this email is already signed for another employee or supplier</string>
+    <string name="exists_phone_error">this phone number is already signed for another employee or supplier</string>
+    <string name="exit">exit</string>
+    <string name="exit_question">are you sure you want to leave?</string>
+    <string name="exit_question_r">to make an appointment you have to register new client</string>
+    <string name="exit_r">registration</string>
+    <string name="exit_to_customer_question">are you sure you want to stop registering as a new business?</string>
+    <string name="faxerror">please enter valid fax number with 9 digits</string>
+    <string name="fidbakAdvice">reviews</string>
+    <string name="finish">finish</string>
+    <string name="fir">f</string>
+    <string name="first_name">name</string>
+    <string name="first_name_">*first name</string>
+    <string name="first_name_not_correct">first name is not as you signed in with</string>
+    <string name="fnameerror">please enter your first name as you registered </string>
+    <string name="from">from:</string>
+    <string name="from_date">from date:</string>
+    <string name="from_hour">from time:</string>
+    <string name="galary">add picture from photo gallery</string>
+    <string name="gallery">gallery</string>
+    <string name="general_error_msg">oops! Unexpected error :( please try again later</string>
+    <string name="giving_service">employees</string>
+    <string name="gps_network_not_enabled">your location service is off. Do you want to turn it on?</string>
+    <string name="help">help</string>
+    <string name="help_txt">we are here for you anytime for anything, Bthere team</string>
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="hours_not_correct">there is no such time during regular day :)</string>
+    <string name="hours_not_correct2">there is a problem with the time you entered</string>
+    <string name="i_want_to_order">I want it!</string>
+    <string name="if_to_see">do you want to show your clients your price list?</string>
+    <string name="if_to_see_1">do you want to show the client</string>
+    <string name="image">image</string>
+    <string name="in">in</string>
+    <string name="in_day">on day </string>
+    <string name="information">about</string>
+    <string name="informationBusines">about the local business</string>
+    <string name="initial_calendar_view">basic calender view</string>
+    <string name="input_city_for_search">enter the wanted city you need</string>
+    <string name="invalid_hours">we\'re sorry, you chosed an irrelevant time for this business</string>
+    <string name="item_distance">km from you</string>
+    <string name="item_ranking">rank:</string>
+    <string name="item_voters">ranks</string>
+    <string name="last_minute_sale">last minute sales</string>
+    <string name="last_name">last name</string>
+    <string name="last_name_">*last name</string>
+    <string name="last_name_not_correct">last name is not as you signed in with</string>
+    <string name="length_of_queues">scheduling duration (in weeks)</string>
+    <string name="less_1">special discount for inviting series of appointments</string>
+    <string name="less_2">special discount for inviting several products</string>
+    <string name="list">list</string>
+    <string name="lnameerror">please enter your last name as you registered </string>
+    <string name="log_out_title">logout</string>
+    <string name="login">already a member? Sign in</string>
+    <string name="login2"><u>already a member? Sign in</u></string>
+    <string name="login_">login</string>
+    <string name="login_business">and add your business to</string>
+    <string name="logo">logo</string>
+    <string name="logout">logoff</string>
+    <string name="logout_question">are you sure you want to logout?</string>
+    <string name="looking_for_location">looking for your specific location</string>
+    <string name="m1">january</string>
+    <string name="m10">october</string>
+    <string name="m11">november</string>
+    <string name="m12">december</string>
+    <string name="m2">february</string>
+    <string name="m3">march</string>
+    <string name="m4">april</string>
+    <string name="m5">may</string>
+    <string name="m6">june</string>
+    <string name="m7">july</string>
+    <string name="m8">august</string>
+    <string name="m9">september</string>
+    <string name="mail">email</string>
+    <string name="mail1">email</string>
+    <string name="mail_error">this email already exists</string>
+    <string name="mail_not_correct">incorrect email</string>
+    <string name="mailerror">to set an appointment</string>
+    <string name="makingApointment">few appointments</string>
+    <string name="meet_details">appointment details</string>
+    <string name="meetings_number">number of meetings</string>
+    <string name="message_not_come_from_server">the needed data has not uplaoded yet. Please try again</string>
+    <string name="messages">messages</string>
+    <string name="messege2">catch phrase- slogen</string>
+    <string name="min">minutes</string>
+    <string name="mon">b</string>
+    <string name="month">month</string>
+    <string name="more_information">more information</string>
+    <string name="must_fields">fill missoing details</string>
+    <string name="my_customers">my clients</string>
+    <string name="my_giving_service">my employees</string>
+    <string name="my_qweues_list">my appointments</string>
+    <string name="my_waiting_list">my waitng list</string>
+    <string name="name">first and last name</string>
+    <string name="name_not_correct">oops :) wrong name</string>
+    <string name="name_product">product name</string>
+    <string name="name_service">service name</string>
+    <string name="name_worker">username</string>
+    <string name="nameerror">please enter valid name</string>
+    <string name="navigate">navigate</string>
+    <string name="new_app_provider_txt">business</string>
+    <string name="new_appointment">new appointment</string>
+    <string name="new_appointment_to_customer">new appointment</string>
+    <string name="new_appointment_to_customer_">make new appointment</string>
+    <string name="new_code">new code</string>
+    <string name="new_cus_name_txt">client</string>
+    <string name="new_event">new event</string>
+    <string name="new_operation">new sale</string>
+    <string name="new_operation_txt">client</string>
+    <string name="new_qwestion">new question</string>
+    <string name="new_sale">upload sale</string>
+    <string name="no">no</string>
+    <string name="no_90_sales">there are no sales right now :(</string>
+    <string name="no_all">please enter all misssing details</string>
+    <string name="no_connection_try_again">there is no connection to the internet. Try again?</string>
+    <string name="no_empty_qweue">there aren\'t any appointments available according to your request</string>
+    <string name="no_empty_qweue_after_update">there aren\'t any appointments available according to the changes you made</string>
+    <string name="no_enough_space">not enough memory available in your device</string>
+    <string name="no_enter_correct">something went wrong during filling the data</string>
+    <string name="no_found_qweues">there aren\'t  appointments for this client</string>
+    <string name="no_found_results_to_this_word">0 matching results for your search. Lets try again</string>
+    <string name="no_found_results_to_your_search">soory :) we still didn\'t sign the business you are looking for…</string>
+    <string name="no_found_services_to_this_provider">לא נמצאו שירותים לספק זה</string>
+    <string name="no_free_quewes_in_this_time">there isn\'t any available appointment on the time you looked for</string>
+    <string name="no_in_this_day">there isn\'t any available appointments on that day</string>
+    <string name="no_internet_connection">no internet connection</string>
+    <string name="no_order">there are not any open appointments for you :(</string>
+    <string name="no_prepared">we are still developing this awasome option</string>
+    <string name="no_sort_by_distance">sorting by distance is not relevant for this search</string>
+    <string name="no_word_for_search">please enter searching key </string>
+    <string name="not_correct">wrong</string>
+    <string name="not_erase_from_w">clearing your name for waiting list has failed</string>
+    <string name="not_fill_all">to send PDF file, you must fill all required fields</string>
+    <string name="not_matching_error">breaks hours are not matching working hours</string>
+    <string name="not_success_to_print">something went wrong during sending the PDF file</string>
+    <string name="numCard">credit card number</string>
+    <string name="num_customers_txt">number of clients</string>
+    <string name="number">number</string>
+    <string name="number_of_Payments">number of payments</string>
+    <string name="number_q">appointment number</string>
+    <string name="ok">accept</string>
+    <string name="ok_and_delete">accept and delete</string>
+    <string name="ok_by_provider_1">you can see your appointment in ypur personal calender,</string>
+    <string name="ok_by_provider_2">and we will remind you about your appointment a day before it happeneds</string>
+    <string name="ok_get">I accept getting commercial information</string>
+    <string name="ok_payment">accept and pay</string>
+    <string name="ok_read">I read and accept the agreement</string>
+    <string name="on_the_system">about our program</string>
+    <string name="open_camera">take a picture</string>
+    <string name="option_1">enter to waiting list</string>
+    <string name="open_location_settings">enable location option</string>
+    <string name="option_2">upcoming available appointments</string>
+    <string name="option_2_2">I want this appointment</string>
+    <string name="option_3">change date</string>
+    <string name="option_4">look for another business</string>
+    <string name="option_4_2">cancel appointment</string>
+    <string name="order">order appointment</string>
+    <string name="order_not_free">thanks for registering! Unfortunately another client as already signed for the appointment you looked for. Please, try to reschedule on a different time in "שם העסק" schedule</string>
+    <string name="oreder_details">meeting details</string>
+    <string name="owner_of_card">credit card owner name</string>
+    <string name="p_details_ques">do you want us to keep your credit card details for future convinient payment?</string>
+    <string name="passerror">please enter the password you signed up with</string>
+    <string name="password">password</string>
+    <string name="payment">payment</string>
+    <string name="paymentTitle">payment type</string>
+    <string name="payment_at_the_app">pay via Bthere</string>
+    <string name="payment_credit_card">pay with credit card</string>
+    <string name="per_det_t1_">fast registeration with:</string>
+    <string name="per_det_t3_">or fill the following details:</string>
+    <string name="per_det_title_">register</string>
+    <string name="permanent_appointment">make an appointment</string>
+    <string name="personal_datails">personal details</string>
+    <string name="personal_picture">upload picture</string>
+    <string name="phone">phone number</string>
+    <string name="phone1">telephone</string>
+    <string name="phone__">*phone number</string>
+    <string name="phoneerror">please enter valid phone number with 10 digits in it</string>
+    <string name="phone_number">phone number</string>
+    <string name="phone_error">this phone number is no longer exist in our system</string>
+    <string name="phone_exists_error">this phone number is not registered in our system</string>
+    <string name="phone_not_correct">incorrect phone number</string>
+    <string name="phoneerror2">wrong number :(</string>
+    <string name="pick">choose one employee from staff</string>
+    <string name="pick_all">choose all</string>
+    <string name="pick_place">choose location</string>
+    <string name="picture">picture</string>
+    <string name="please_wait">if you could wait a second, it would be great :)</string>
+    <string name="price">price (NIS)</string>
+    <string name="print_calendar">print calender</string>
+    <string name="product_or_service_text">service/product</string>
+    <string name="provider_exists">you already signed in as business owner</string>
+    <string name="q4">welcome home - Bthere</string>
+    <string name="que_limit_set_app">do you want to limit the number of appointments this client can make?</string>
+    <string name="que_limit_set_app1">do you want to limit</string>
+    <string name="que_limit_set_app2">number of appointments</string>
+    <string name="qwestion">question</string>
+    <string name="qweue_canceled">the appointment has benn canceled</string>
+    <string name="qweues_to_cus_h">the appointments of…</string>
+    <string name="racehours_error">the shift breaks does not match</string>
+    <string name="ranking">ranking</string>
+    <string name="ranking_">ranking: %1$s</string>
+    <string name="rankings">ranks</string>
+    <string name="regolations_cancel">cancel</string>
+    <string name="regulation_to_user">user and privacy agreement</string>
+    <string name="regulations"><u>to user and privacy agreement</u></string>
+    <string name="regulations_">agreement details </string>
+    <string name="regulations_ok">accept</string>
+    <string name="reports">reports</string>
+    <string name="reports_customers_birthdays">clients birthdays</string>
+    <string name="reports_customers_with_a_select_period_of_time_line">clients with appointments in a specific time period</string>
+    <string name="reports_lines_b_dividing_service_providers">appointments according to employee</string>
+    <string name="reports_lines_by_dividing_service">appointments according to the service type</string>
+    <string name="reports_new_customers">new clients</string>
+    <string name="reports_number_of_customers">number of clients</string>
+    <string name="reports_number_of_lines">number of appointments</string>
+    <string name="reports_payment_via_app">pay via Bthere</string>
+    <string name="reports_turns_customer_come_or_do_not_come">occurred/nor occurred appointments for client</string>
+    <string name="reports_turns_determined_by_the_customer_or_supplier">appointments that made by client/business</string>
+    <string name="required">*required field</string>
+    <string name="required_fields">all fields are necessary</string>
+    <string name="rosit" translatable="false">Russian</string>
+    <string name="s_discount_text">special discount for ordering many appointments/products</string>
+    <string name="s_service_text">name of service/product</string>
+    <string name="s_space_time_text">time span (minutes)</string>
+    <string name="s_time_text">duration(minutes)</string>
+    <string name="s_view_calendar_text">calender display</string>
+    <string name="sale">sale</string>
+    <string name="same_hours">are these hours match the business working hours?</string>
+    <string name="sav">save</string>
+    <string name="save_">save</string>
+    <string name="save">save and continue</string>
+    <string name="saveEnter">save and continue</string>
+    <string name="save_continue">save and continue</string>
+    <string name="search">search</string>
+    <string name="search_customer">look for client</string>
+    <string name="search_et">search for employee or section</string>
+    <string name="search_results">search results</string>
+    <string name="see">display</string>
+    <string name="see_">watch</string>
+    <string name="send">send</string>
+    <string name="send_">send confirmation message</string>
+    <string name="send_again">send again</string>
+    <string name="send_delay">send "I\'ll be late" message</string>
+    <string name="send_pdf">send PDF to email</string>
+    <string name="send_second">I didn\'t get my code,</string>
+    <string name="service_name_error">please enter valid name</string>
+    <string name="service_product">product/service name</string>
+    <string name="set_event">create event</string>
+    <string name="shach">NIS</string>
+    <string name="shoe_bussiness_title">rank the business</string>
+    <string name="sign_up">register</string>
+    <string name="site">website</string>
+    <string name="site_error">wrong website :(</string>
+    <string name="sloganBusines">slogen</string>
+    <string name="social_network">(press the icon to sync)</string>
+    <string name="social_network1">social networks</string>
+    <string name="sort_by">sort by:</string>
+    <string name="street">street</string>
+    <string name="subject">subject</string>
+    <string name="successEmail">mail was sent successfully</string>
+    <string name="success_in_alerts">alerts settings is successfully saved</string>
+    <string name="success_in_alerts_get">alerts settings received</string>
+    <string name="supplier">business name</string>
+    <string name="syn_with_google_calendar">sync with google calender as default</string>
+    <string name="syn_with_my_calendar">sync with my calender</string>
+    <string name="thankFidbak1">waiting to see you ,</string>
+    <string name="thankFidbak3">thanks</string>
+    <string name="thank_you">thank you very much</string>
+    <string name="the_90_minute">last minute</string>
+    <string name="the_bussiness_closed">the business is closed</string>
+    <string name="the_image_didnt_load">we didn\'t succeed to upload your picture</string>
+    <string name="there_are_no_coupons_to_this_provider">there are no sales for "שם העסק"</string>
+    <string name="there_are_no_providers_to_this_customer">there are not any business matching your search</string>
+    <string name="there_are_problem">we are having some kind of network problems right now :( please try again later</string>
+    <string name="there_is_error">we are having some kind of a problem</string>
+    <string name="threeNumbers">3 digit on the back of the credit card</string>
+    <string name="time">time duration</string>
+    <string name="timeActivy">working hours</string>
+    <string name="timeHours">range</string>
+    <string name="time_period">break duration</string>
+    <string name="title_fragment_business_profile">Business Profile Page</string>
+    <string name="to">to:</string>
+    <string name="to_date">to date</string>
+    <string name="to_hour">to time</string>
+    <string name="to_the_full_reports">full reports</string>
+    <string name="to_the_movie">to instuction video</string>
+    <string name="to_the_next">next meeting</string>
+    <string name="to_the_regulations">user and privacy agreement</string>
+    <string name="too_long_adress">you need to enter  valid address with up to 30 characters</string>
+    <string name="too_long_chet_pe">you can only insert 9 digits</string>
+    <string name="too_long_phone">you need to enter valid phone number with 10 digits in it</string>
+    <string name="too_long_price">you can only insert up to 6 digits</string>
+    <string name="too_long_service_name">you can only insert up to 30 digits</string>
+    <string name="too_long_slogen">you can only insert up to 120 digits</string>
+    <string name="too_long_space">you can only insert up to 2 digits</string>
+    <string name="too_long_time">you can only insertup to 3 digits</string>
+    <string name="tor">to make an appointment </string>
+    <string name="type_of_card">type of credit card</string>
+    <!--<string name="type_service">type of service</string>-->
+    <string name="type_service">service\'s type</string>
+    <string name="tz">ID</string>
+    <string name="update">update</string>
+    <string name="update_app">update meeting</string>
+    <string name="update_appointment">update meeting -%1$s</string>
+    <string name="update_appointment2">appointment update</string>
+    <string name="update_datails">update details</string>
+    <string name="update_details">update details</string>
+    <string name="update_ok">the meeting has updated by your changes</string>
+    <string name="update_user_not_s">soory :( ther has been a problem with updating your details</string>
+    <string name="update_user_s">your details updated successfully</string>
+    <string name="user_name">username</string>
+    <string name="utilize_in_month_1">this month you used</string>
+    <string name="utilize_in_month_2">out of</string>
+    <string name="utilize_in_month_3">hours</string>
+    <string name="valid">valid card</string>
+    <string name="validity">exparation date</string>
+    <string name="verification_empty">please enter authentication code</string>
+    <string name="verification_error">wrong authentication code</string>
+    <string name="verification_error_1">oops! You entered wrong verification code :( after 3 attempts the app will lock itself</string>
+    <string name="verification_mail1">verification message</string>
+    <string name="verification_mail2">we sent you verification code. Please copy it here</string>
+    <string name="verification_mail3">a message was sent to your email</string>
+    <string name="verification_mail4">enter to complete registeration</string>
+    <string name="verification_mail_send">send</string>
+    <string name="vip">v.i.p</string>
+    <string name="vip_">V.I.P</string>
+    <string name="voteres">ranks</string>
+    <string name="voters">ranks %1$s</string>
+    <string name="waiting_list">waiting list</string>
+    <string name="way">%1$s , %2$s km ahead.</string>
+    <string name="wel_txt">match employee to product</string>
+    <string name="week">week</string>
+    <string name="welcome">welcome,</string>
+    <string name="welcome1">welcome to</string>
+    <string name="welcome2">open calender and business profile</string>
+    <string name="welcome3">pleast fiil the following details:</string>
+    <string name="welcome4">submit</string>
+    <string name="welcome_no_thank">no thanks</string>
+    <string name="what_do_you_think_of">tell us what do think about this business</string>
+    <string name="what_you_want_to_do">what would you like to do?</string>
+    <string name="worker_diary">do you want to open private calender for this employee?</string>
+    <string name="working_hours">working hours</string>
+    <string name="workinghours_error">working hours does not match</string>
+    <string name="your_ask_1">your request has sent to</string>
+    <string name="your_ask_2">confirm</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>My diary</item>
+        <item>My service\nproviders</item>
+        <!--My service\nproviders-->
+        <item>Definitions</item>
+        <item>About Us</item>
+        <item>Log in as a business</item>
+        <item>print</item>
+        <item>Log out</item>
+    </string-array>
+
+    <string-array name="product_or_service">
+        <item>service</item>
+        <item>product</item>
+    </string-array>
+
+    <string-array name="definitions_txt">
+        <item>Personal Information</item>
+        <item>Business information</item>
+        <item>General data</item>
+        <item>Notifications</item>
+        <!--<item>Alerts</item>-->
+        <item>Business Profile Page</item>
+        <item>Synchronizing contacts</item>
+        <item>payment</item>
+        <item>language</item>
+    </string-array>
+    <!--,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+    <string-array name="al_min">
+        <item>30 minutes</item>
+        <item>........</item>
+        <item>........</item>
+        <item>........</item>
+    </string-array>
+    <string-array name="s_service">
+        <item>תספורת גבר</item>
+        <item>תספורת אישה</item>
+        <item>תספורת ילד</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="s_time">
+        <item>30 minutes</item>
+        <item>20 minutes</item>
+        <item>10 minutes</item>
+        <item>........</item>
+    </string-array>
+
+
+    <string-array name="s_less">
+        <item>3%</item>
+        <item>5%</item>
+        <item>7%</item>
+        <item>10%</item>
+    </string-array>
+
+
+    <string-array name="s_space_time">
+        <item>30 minutes</item>
+        <item>20 minutes</item>
+        <item>10 minutes</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="s_discount">
+        <item>3%</item>
+        <item>5%</item>
+        <item>7%</item>
+        <item>10%</item>
+    </string-array>
+
+    <string-array name="det_app_date">
+        <item>1/1/2016</item>
+        <item>2/1/2016</item>
+        <item>3/1/2016</item>
+        <item>4/1/2016</item>
+    </string-array>
+
+    <string-array name="det_app_hour">
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+    </string-array>
+
+    <string-array name="num_customers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="al_up_1">
+        <item>birthday</item>
+        <item>........</item>
+        <item>........</item>
+        <item>........</item>
+    </string-array>
+
+
+    <string-array name="al_up_2">
+        <item>monthly</item>
+        <item>Daily</item>
+        <item>yearly</item>
+        <item>........</item>
+    </string-array>
+    <string-array name="al_cus_2">
+        <item>monthly</item>
+        <item>Daily</item>
+        <item>yearly</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="phone_start">
+        <item>050</item>
+        <item>052</item>
+        <item>053</item>
+        <item>054</item>
+        <item>055</item>
+        <item>058</item>
+    </string-array>
+    <string-array name="new_cus_name">
+        <item>לירון חזיז</item>
+        <item>רחל גוטמן</item>
+        <item>יסמין גנזי בן לולו</item>
+        <item>שירן רץ</item>
+    </string-array>
+
+    <string-array name="new_operation">
+        <item>discount</item>
+        <item>1+1</item>
+        <item>50%</item>
+    </string-array>
+
+
+    <string-array name="det_app_type_service">
+        <item>תספורת גבר</item>
+        <item>תספורת אישה</item>
+        <item>גוונים</item>
+        <item>פן</item>
+    </string-array>
+    <!--,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+    <!--menu-->
+    <string-array name="trialgle_strings_menu">
+        <item>New appointment</item>
+        <item>New Event</item>
+        <item>Update an existing queue</item>
+        <item>waiting list</item>
+        <item>Lesser delay</item>
+        <item>not coming</item>
+        <item>The 90th minute</item>
+        <item>help</item>
+    </string-array>
+
+    <string-array name="trialgle_strings_menu_supplier">
+        <item>New appointment</item>
+        <item>Block hours</item>
+        <item>The 90th minute</item>
+        <item>Several customers in parallel</item>
+        <item>waiting list</item>
+        <item>Update the nearest line</item>
+        <item>Messages</item>
+        <item>help</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="credit_card_type">
+        <item>visa</item>
+        <item>Isracard</item>
+        <item>Leumi Card</item>
+    </string-array>
+
+    <string-array name="credit_card_num_p">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>january</item>
+        <item>february</item>
+        <item>march</item>
+        <item>april</item>
+        <item>may</item>
+        <item>june</item>
+        <item>july</item>
+        <item>august</item>
+        <item>september</item>
+        <item>october</item>
+        <item>november</item>
+        <item>december</item>
+    </string-array>
+
+    <string-array name="meetings_number_spinner">
+        <item>6</item>
+        <item>10</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="length_of_queues_spinner">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="definitions_from_the_customer_txt">
+        <item>Personal Information</item>
+        <item>Notifications</item>
+        <!--<item>Alerts</item>-->
+        <item>payment</item>
+        <item>language</item>
+    </string-array>
+
+    <string-array name="initial_calendar_view_spinner">
+        <item>Day view</item>
+        <item>Week view</item>
+        <item>Month view</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+
+    <string-array name="supplier_navigation_drawer_items_array">
+        <item>My diary</item>
+        <item>Business Page</item>
+        <item>Customers</item>
+        <item>Definitions</item>
+        <item>Reports</item>
+        <item>About Us</item>
+        <item>print</item>
+        <item>Log out</item>
+    </string-array>
+
+
+    <!--//////////////////////////////////////////////////////////////-->
+    <!--///////////////////custom spinner/////////////////////////////-->
+
+    <!--//first view calendar-->
+    <string-array name="cal_f_view">
+        <item>Day view</item>
+        <item>Week view</item>
+        <item>Month view</item>
+    </string-array>
+
+
+    <!--//alert_meeting-->
+
+    <string-array name="al_meet">
+        <item>all</item>
+        <item>פIncoming date</item>
+        <item>Changing meeting details</item>
+        <item>Cancellation of Meeting</item>
+    </string-array>
+
+
+    <string-array name="al_cus_1">
+        <item>message</item>
+        <item>Pop Up</item>
+        <item>Mail</item>
+    </string-array>
+    <string-array name="days">
+        <item>א\'</item>
+        <item>ב\'</item>
+        <item>ג\'</item>
+        <item>ד\'</item>
+        <item>ה\'</item>
+        <item>ו\'</item>
+    </string-array>
+
+    <string-array name="ordering_list">
+        <item>service</item>
+        <item>product</item>
+        <item>A series of queues</item>
+        <item>gift card</item>
+    </string-array>
+
+    <string-array name="staff_member_list">
+        <item>I do not care</item>
+        <item>1 staff</item>
+        <item>2 staff</item>
+        <item>3 staff</item>
+    </string-array>
+
+    <string-array name="reports_list">
+        <item>Operational utilization</item>
+        <item>Number of Customers</item>
+        <item>New customers</item>
+        <item>Customers with a select period of time line</item>
+        <item>Customers\' birthdays</item>
+        <item>Several queues</item>
+        <item>Lines by dividing service</item>
+        <item>Lines by dividing service providers</item>
+        <item>Turns customer come / do not come</item>
+        <item>Turns determined by the customer / supplier</item>
+        <item>Payment via app</item>
+    </string-array>
+    <string name="no_waiting_list">You are not on the waiting lists of suppliers</string>
+    <string name="erase_supplier">Are you sure you want to delete this service provider?</string>
+    <string name="sun">a</string>
+    <string name="thur">e</string>
+    <string name="tues">c</string>
+    <string name="wed">d</string>
+
+
+    <string name="read_more"><u>read more</u></string>
+</resources>

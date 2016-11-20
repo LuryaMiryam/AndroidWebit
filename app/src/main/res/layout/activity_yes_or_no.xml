@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="webit.bthereapp.CustemViews.YesOrNo">
+    <LinearLayout
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"     >
+        <ImageButton
+            android:id="@+id/v_"
+            android:layout_marginEnd="17dp"
+            android:layout_width="@dimen/personal_details_yes_width"
+            android:layout_height="@dimen/personal_details_yes_height"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/client_galaxy_icons1_37" />
+        <ImageButton
+            android:id="@+id/x_"
+            android:layout_marginEnd="10dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="5dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/client_galaxy_icons1_36" />
+    </LinearLayout>
+</LinearLayout>

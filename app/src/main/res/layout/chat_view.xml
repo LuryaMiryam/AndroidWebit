@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:visibility="visible"
+        android:id="@+id/chatRetryArea"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+        />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chatRetryLoad"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/chatLoadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center" >
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+
+
+    <ListView
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:id="@+id/chatHistoryList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chatTools"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/chatTools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/chatSendClick"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+       />
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/chatAttachmentBtn"
+            android:layout_width="30dp"
+            android:enabled="false"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ListView
+            android:id="@+id/to"
+            android:layout_width="0dip"
+            android:visibility="visible"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9" />
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2">
+
+
+        </RelativeLayout>
+        <ListView
+            android:id="@+id/from"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearDarkGreenTran"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:background="@color/dark_green_tran"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ListView
+            android:id="@+id/customTimePicker1"
+            android:layout_width="0dip"
+            android:visibility="invisible"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2">
+
+            <View
+                android:id="@+id/View1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:background="@color/color_white" />
+
+            <View
+                android:id="@+id/View2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@color/color_white" />
+
+            <View
+                android:id="@+id/View3"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:background="@color/color_white" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/customTimePicker3"
+            android:visibility="invisible"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9" />
+    </LinearLayout>
+</RelativeLayout>

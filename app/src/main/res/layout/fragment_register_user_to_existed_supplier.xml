@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/register_user_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:orientation="vertical">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/per_det_title_"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/personal_details_title_paddingBottom"
+            android:paddingTop="@dimen/personal_details_title_paddingTop"
+            android:text="@string/per_det_title_"
+            android:textColor="@color/color4"
+            android:textSize="30sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/personal_details_r_read_marginTop"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
+
+            <!--<webit.bthereapp.CustemViews.Fonts.CustomLightTextView-->
+            <!--android:id="@+id/per_det_t3_"-->
+            <!--style="@style/t1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:gravity="start"-->
+            <!--android:paddingBottom="@dimen/personal_details_line2_paddingBottom"-->
+            <!--android:paddingStart="@dimen/personal_details_line2_paddingRight"-->
+            <!--android:text="@string/per_det_t3_"-->
+            <!--android:textColor="@color/color1" />-->
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/required"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="7dp"
+                android:text="@string/required" />
+        </RelativeLayout>
+
+        <!--<View-->
+        <!--style="@style/personal_details_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/personal_details_viewlayout_height"-->
+        <!--android:layout_marginTop="@dimen/personal_details_view_marginTop"-->
+        <!--android:background="@color/color1" />-->
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/f_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/fnameerror"
+            app:et_hint="@string/first_name"
+            app:et_input_type="it_text"
+            app:et_is_required="true"
+            app:et_pattern="^[\\p{L} .'-]+$"/>
+        <!--app:et_pattern="[a-zA-Z א-ת]{2,}"-->
+
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/l_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/lnameerror"
+            app:et_hint="@string/last_name"
+            app:et_input_type="it_text"
+            app:et_is_required="true"
+            app:et_pattern="^[\\p{L} .'-]+$"/>
+        <!--app:et_pattern="[a-zA-Z א-ת]{2,}"-->
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:imeOptions="actionNext"
+            app:et_error="@string/phoneerror"
+            app:et_hint="@string/phone"
+            app:et_input_type="it_phone"
+            app:et_is_required="true"
+            app:et_pattern="^[0-9]{10}" />
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:imeOptions="actionNext"
+            app:et_error="@string/adrerror"
+            app:et_hint="@string/mail"
+            app:et_input_type="it_mail_adress"
+            app:et_is_required="true"
+            app:et_pattern="^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$" />
+
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <LinearLayout
+            android:id="@+id/born_date_ll"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/born_date_tv"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="start"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|start"
+                android:inputType="date"
+                android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                android:paddingStart="14dp"
+                android:text="@string/born_date"
+                android:textColor="@color/sysGray" />
+        </LinearLayout>
+
+        <webit.bthereapp.CustemViews.CustomDatePicker
+            android:id="@+id/cDate"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/born_date_view"
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:paddingStart="15dp">
+
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                android:id="@+id/p_pic"
+                style="@style/t1"
+                android:layout_width="60dp"
+                android:layout_height="@dimen/personal_details_b_image_height"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:background="@color/color3"
+                android:textAllCaps="false"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:stateListAnimator="@null"
+                android:text="@string/see_"
+                android:visibility="gone" />
+
+
+            <RelativeLayout
+                android:id="@+id/p_camera_ll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/p_camera"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="22dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/client_galaxy_icons1_33" />
+
+                <View
+                    android:id="@+id/picture_or"
+                    style="@style/personal_details_view"
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="22dp"
+                    android:layout_toEndOf="@id/p_camera"
+
+                    android:background="@color/view_color" />
+
+                <ImageButton
+                    android:id="@+id/delete"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="7.5dp"
+                    android:background="@drawable/client_galaxy_icons1_22"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/imgSrc"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@id/picture_or" />
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="150dp"
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <DatePicker
+            android:id="@+id/born_date_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="13dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/save_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save_continue"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/personal_details_r_read_marginTop"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/personal_details_r_inform_paddingBottom"
+            android:paddingStart="@dimen/personal_details_r_inform_paddingRight">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="@dimen/personal_details_inform_marginTop"
+                android:layout_toEndOf="@+id/iv_3"
+                android:text="@string/syn_with_my_calendar"
+                android:textColorHint="@color/color1" />
+
+            <ImageView
+                android:id="@+id/iv_3"
+                android:layout_width="@dimen/personal_details_ch_b_width"
+                android:layout_height="@dimen/personal_details_ch_b_height"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/supplier_galaxy_icons_x1_30" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/personal_details_r_inform_paddingRight">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/text2"
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/personal_details_inform_marginTop"
+                android:layout_toEndOf="@+id/iv_2"
+                android:hint="@string/ok_get"
+                android:textColorHint="@color/color1" />
+
+            <ImageView
+                android:id="@+id/iv_2"
+                android:layout_width="@dimen/personal_details_ch_b_width"
+                android:layout_height="@dimen/personal_details_ch_b_height"
+                android:layout_alignParentStart="true"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/client_galaxy_icons1_34" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingEnd="@dimen/personal_details_line_t_paddingRight"
+
+
+            android:paddingStart="@dimen/personal_details_line_t_paddingRight">
+            android:paddingst="13dp"
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="@dimen/personal_details_ch_b_width"
+                android:layout_height="@dimen/personal_details_ch_b_height"
+                android:layout_gravity="start"
+                android:layout_marginEnd="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/client_galaxy_icons1_34" />
+
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/text1"
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/personal_details_tv_regulation_marginTop"
+                android:layout_toEndOf="@+id/iv_1"
+                android:hint="@string/ok_read"
+                android:textColorHint="@color/color1" />
+
+            <RelativeLayout
+                android:id="@+id/p_regulations"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                    style="@style/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end|center"
+                    android:layout_marginTop="@dimen/personal_details_tv_regulation_marginTop"
+                    android:autoLink="web|email"
+                    android:linksClickable="true"
+                    android:text="@string/regulations"
+                    android:textColor="@color/color4" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/continue1"
+            style="@style/t1"
+            android:layout_width="@dimen/personal_details_sign_b_width"
+            android:layout_height="@dimen/personal_details_sign_b_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/personal_details_sign_b_marginBottom"
+            android:background="@color/color4"
+            android:textAllCaps="false"
+            android:text="@string/ok"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+        <RelativeLayout
+            android:visibility="gone"
+            android:id="@+id/add_business"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:background="@color/black"
+            android:gravity="center">
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/login_business"
+                style="@style/t1"
+                android:layout_width="48dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="5dp"
+                android:background="@color/color3"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/continue_"
+                android:textColor="@color/color_white" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/add_your_business"
+                style="@style/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/login_business"
+                android:text="@string/login_business"
+                android:textColor="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/numScreens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_margin="10dp"
+                android:layout_toEndOf="@+id/add_your_business"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

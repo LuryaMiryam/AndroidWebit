@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/li"
+    android:layoutDirection="rtl"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000000">
+
+        <webit.bthereapp.CustemViews.PickerView
+            android:id="@+id/to_pv"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            />
+
+        <View
+            android:id="@+id/View1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/minute_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@id/to_pv"
+            android:text="-"
+            android:textColor="#ffff"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/View2"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#ffff" />
+
+        <webit.bthereapp.CustemViews.PickerView
+            android:id="@+id/from_pv"
+            android:layout_width="100dp"
+            android:layout_toRightOf="@id/minute_tv"
+            android:layout_height="120dp" />
+
+    </LinearLayout>
+</LinearLayout>

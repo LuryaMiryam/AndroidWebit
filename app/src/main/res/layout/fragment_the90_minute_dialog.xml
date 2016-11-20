@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp">
+<RelativeLayout
+    android:id="@+id/rr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+        android:id="@+id/title"
+        style="@style/h1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:gravity="center_horizontal"
+        android:text="@string/the_90_minute"
+        android:textColor="@color/light_blue"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="7.5dp"
+        android:layout_marginTop="7.5dp"
+        android:background="@drawable/client_galaxy_icons1_22" />
+
+    <LinearLayout
+        android:id="@+id/cus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="13.5dp"
+        android:layout_marginTop="13.5dp"
+        android:background="@color/color4">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:layout_width="27.5dp"
+            android:layout_height="27.5dp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="+"
+            android:textColor="@color/color_white"
+            android:textSize="25dp" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:paddingEnd="5dp"
+            android:layout_gravity="start"
+            android:background="@color/color4"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/add_sale"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/cus"
+        android:background="@color/color1"></View>
+
+</RelativeLayout>
+    <ListView
+        android:id="@+id/the_90_minute_list"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_below="@+id/rr"></ListView>
+
+</RelativeLayout>

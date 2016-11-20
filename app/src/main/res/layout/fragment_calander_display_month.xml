@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="16"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layoutDirection="ltr"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.5"
+        android:background="@color/color3"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1001"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1002"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1003"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1004"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1005"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/textViewTitle1006"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/color_white" />
+    </LinearLayout>
+    <View
+        android:id="@+id/viewLinear1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/dark_gray_6"
+        />
+    <LinearLayout
+        android:id="@+id/linearLayoutMainCalander"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="14.5"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/viewLinear"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/dark_gray_6"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_result_rl_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/search_result_sv_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/search_result_ll1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:weightSum="4.8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/orange"
+                android:paddingEnd="10dp"
+                android:weightSum="5">
+                android:paddingStart="10dp"
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start"
+                    android:layout_weight="0.7">
+
+                    <ImageView
+                        android:id="@+id/item_icon"
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="15dp"
+                        android:background="@color/color4"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/client_galaxy_icons1_12" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="3.6"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="vertical">
+
+
+                    <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                        android:id="@+id/item_title_1"
+                        style="@style/h3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="" />
+
+                    <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                        android:id="@+id/item_title_2"
+                        style="@style/t3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:layout_weight="0.7"
+                    android:gravity="end">
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3.5"
+                android:orientation="vertical"
+                android:visibility="visible"
+                android:weightSum="5.1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="19dp"
+                    android:background="@color/blackTransparent"
+                    android:gravity="top"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|start"
+                        android:layout_marginStart="5dp"
+                        android:gravity="start">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/mark_map" />
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                            android:id="@+id/item_city"
+                            style="@style/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text=""
+                            android:textColor="@color/color_white" />
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+
+                            android:id="@+id/item_distance_"
+                            style="@style/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="2dp"
+                            android:text=""
+                            android:textColor="@color/color_white" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:layout_weight="1"
+                        android:gravity="end">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/favourite" />
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                            android:id="@+id/ranking"
+                            style="@style/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/ranking"
+                            android:textColor="@color/color_white" />
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                            android:id="@+id/item_ranking"
+                            style="@style/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="2dp"
+                            android:text="8.9"
+                            android:textColor="@color/color_white" />
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+
+                            style="@style/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text=" | "
+                            android:textColor="@color/color_white" />
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                            android:id="@+id/item_voters"
+                            style="@style/t3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text=""
+                            android:textColor="@color/color_white" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+

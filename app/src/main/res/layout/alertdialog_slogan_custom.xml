@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:weightSum="11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="2"
+        android:background="@color/transparent"
+        android:gravity="start"
+        android:weightSum="9">
+
+        <RelativeLayout
+            android:id="@+id/rlv2"
+            android:layout_width="90dp"
+            android:layout_height="100dp"
+            android:layout_gravity="start"
+            android:background="@color/transparent"
+            android:paddingStart="-20dp"
+            android:rotation="360">
+            android:layout_width="70dp"
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/trangle" />
+        </RelativeLayout>
+        <!--<RelativeLayout-->
+            <!--android:paddingStart="-20dp"-->
+            <!--android:layout_gravity="start"-->
+            <!--android:id="@+id/rlv2"-->
+            <!--android:layout_width="90dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:rotation="360"-->
+            <!--android:background="@color/transparent"-->
+            <!--&gt;-->
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:src="@drawable/trangle" />-->
+        <!--</RelativeLayout>-->
+
+        <LinearLayout
+            android:id="@+id/linearLayoutDis"
+            android:orientation="horizontal"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:background="@color/transparent"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="90dp"
+        android:layout_height="0.5dp"
+        android:layout_below="@id/rlv2"
+        android:layout_gravity="start"
+        android:background="@color/black" />
+
+    <LinearLayout
+        android:id="@+id/rlv1"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="5"
+        android:background="@color/blackTransparent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:id="@+id/imageButtonCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="6dp"
+                android:background="@color/transparent"
+                android:src="@drawable/xwhite" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/textViewTitle"
+                style="@style/h1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/sloganBusines"
+                android:textColor="@color/color_white" />
+
+        </LinearLayout>
+        <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+            android:id="@+id/editTextInformation"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingStart="5dp"
+            android:layout_margin="14dp"
+            android:background="@color/color_white"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+           />
+        <!--</LinearLayout>-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                android:id="@+id/buttonSaveEnter"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:textAllCaps="false"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/color4"
+                android:paddingEnd="7dp"
+                android:paddingStart="7dp"
+                android:text="@string/saveEnter"
+                android:textColor="@color/color_white" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

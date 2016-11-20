@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/about_"
+            style="@style/h1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="13dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/supplier_galaxy_icons_x1_58" />
+
+        <ImageButton
+            android:id="@+id/close_out"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/h"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="13dp"
+            android:text="@string/on_the_system"
+            android:textStyle="bold" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+            android:id="@+id/on_the_system_txt"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/h"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/on_the_system_txt" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/h2"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/on_the_system_txt"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="17.5dp"
+            android:text="@string/icons"
+            android:textStyle="bold" />
+
+
+        <GridView
+            android:id="@+id/icons_gv"
+            android:layout_width="849dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/h2"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17.5dp"
+
+            android:minWidth="1000dp"
+            android:numColumns="4" />
+    </RelativeLayout>
+</LinearLayout>

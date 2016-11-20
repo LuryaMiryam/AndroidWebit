@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:minHeight="800dp"
+    android:layout_centerHorizontal="true"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginBottom="13.5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginEnd="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/title"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/help"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        style="@style/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9.5dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal"
+        android:text="@string/help_txt" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+                android:layout_width="152.5dp"
+                android:layout_height="27.5dp"
+                android:layout_gravity="center_vertical|end"
+                android:background="@color/color1"
+                android:text="@string/bthere_phone"
+                android:textAllCaps="false"
+                android:textColor="@color/color_white" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+                android:layout_width="152.5dp"
+                android:layout_height="27.5dp"
+                android:textAllCaps="false"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginStart="4dp"
+                android:background="@color/color1"
+                android:text="@string/bthere_mail"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="9.5dp"
+        android:background="@color/color1" />
+
+    <LinearLayout
+        android:id="@+id/new_qwestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+
+            android:id="@+id/regulation_title_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/close_in"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7.5dp"
+                android:layout_marginTop="7.5dp"
+                android:background="@drawable/client_galaxy_icons1_22" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:textAllCaps="false"
+                android:layout_marginBottom="12dp"
+                android:background="@color/color4"
+                android:text="@string/new_qwestion"
+                android:textColor="@color/color_white" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    style="@style/t1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start|center_vertical"
+                    android:text="@string/subject"
+                    android:textColor="@color/color1" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomRegularEditText
+                    style="@style/t3"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="31dp"
+                    android:background="@color/dark_gray_7"
+                    android:hint=""
+                    android:padding="3dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    style="@style/t1"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start|center_vertical"
+                    android:text="@string/qwestion"
+                    android:textColor="@color/color1" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomRegularEditText
+                    style="@style/t3"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="31dp"
+                    android:background="@color/dark_gray_7"
+                    android:hint=""
+                    android:padding="3dp" />
+            </RelativeLayout>
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+                android:id="@+id/send_qwes"
+                android:layout_width="91dp"
+                android:layout_height="27.5dp"
+                android:layout_gravity="end"
+                android:layout_marginBottom="10dp"
+                android:textAllCaps="false"
+                android:layout_marginEnd="31dp"
+                android:background="@color/color1"
+                android:text="@string/send"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/add_qwestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="14dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="27.5dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/color4">
+
+            <RelativeLayout
+                android:layout_width="27.5dp"
+                android:layout_height="27.5dp">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:layout_centerHorizontal="true"
+
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/plus"
+                    android:textColor="@color/color_white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                android:id="@+id/add_"
+                style="t1"
+                android:layout_width="wrap_content"
+                android:layout_height="27.5dp"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="@string/add_question"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+
+        android:background="@color/color1" />
+
+    <ListView
+        android:id="@+id/qwestions_list"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="8"></ListView>
+
+
+</LinearLayout>

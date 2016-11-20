@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color1"
+        android:minWidth="400dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/regulation_title_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/close"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end|top"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/client_galaxy_icons1_30" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/h"
+                style="@style/h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="@string/vip"
+                android:layout_marginEnd="15dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/color_white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="45.5dp"
+                android:layout_height="45.5dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="14.5dp"
+                android:background="@color/color4">
+
+                <ImageView
+                    android:id="@+id/image__"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end|top"
+                    android:layout_margin="8dp"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/black_icons_galaxy_x1_18" />
+            </RelativeLayout>
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                android:id="@+id/txt"
+                style="@style/t2"
+                android:layout_marginEnd="14.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="@android:color/transparent"
+                android:text="@string/vip_txt"
+                android:textColor="@color/color_white" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

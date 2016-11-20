@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/spinner"
+        android:layout_width="@dimen/spinner_w"
+        android:layout_height="@dimen/spinner_h"
+        android:orientation="horizontal"
+        android:background="@color/light_gray_2"
+        android:layout_weight="10"
+        android:paddingEnd="5dp">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/choose"
+            style="@style/t1"
+            android:gravity="start"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:background="@color/light_gray_2"
+            android:paddingStart="5dp"
+            android:textColor="@color/color1" />
+        <ImageView
+            android:id="@+id/arror"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="15dp"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/down_arrow" />
+    </LinearLayout>
+

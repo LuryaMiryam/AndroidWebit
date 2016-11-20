@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/business_details_screen"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scaleType="centerCrop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:orientation="vertical">
+
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/bus_det_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/bussiness_name_error"
+            app:et_hint="@string/business_name"
+            app:et_input_type="it_text"
+            app:et_is_required="true" />
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/bus_det_ch_p"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/chet_pe_error"
+            app:et_hint="@string/business_ch_p"
+            app:et_input_type="it_number"
+            app:et_is_required="true"
+            app:et_pattern="^[0-9]{9}" />
+
+
+        <webit.bthereapp.CustemViews.CustomAutoCompleteTextView
+            android:id="@+id/bus_det_adress"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:imeOptions="actionNext" />
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/bus_det_phone"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/phoneerror2"
+            app:et_hint="@string/business_phone"
+            app:et_input_type="it_phone_2"
+            app:et_is_required="true"
+            app:et_pattern="[0-9-*]{5,}" />
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/bus_det_fax"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/faxerror"
+            app:et_hint="@string/business_fax"
+            app:et_input_type="it_phone"
+            app:et_is_required="false"
+            app:et_pattern="[0-9]{9}" />
+
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/bus_det_site"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/site_error"
+            app:et_hint="@string/business_site"
+            app:et_input_type="it_site"
+            app:et_is_required="false"
+           />
+        <!--app:et_pattern="[0-9A-Za-z\\.]{3,}"-->
+        <!--app:et_pattern="[A-Za-z]{2,}+\\.+[A-Za-z]{2,}+\\.+[A-Za-z]{2,}"-->
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/bus_det_mail"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/mailerror"
+            app:et_hint="@string/business_email"
+            app:et_input_type="it_mail_adress"
+            app:et_is_required="true"
+            app:et_pattern="^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$" />
+
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/required"
+            style="@style/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="10dp"
+            android:paddingStart="@dimen/personal_details_et_paddingRight"
+            android:text="@string/required" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/bus_det_continue"
+            style="@style/t1"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
+            android:layout_height="@dimen/personal_details_sign_b_height"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="13dp"
+            android:background="@color/color4"
+            android:gravity="center"
+            android:text="@string/continue2"
+            android:textColor="#ffffff" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/ok"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/personal_details_sign_b_height"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="end"
+            android:layout_marginEnd="13dp"
+            android:background="@color/color4"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

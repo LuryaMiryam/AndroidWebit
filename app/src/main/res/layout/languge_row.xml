@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="56.5dp">
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:gravity="center"
+            android:id="@+id/language"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentStart="true"
+            android:text="language"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="21.5dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"/>
+
+    <View
+        android:layout_marginTop="15dp"
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"/>
+
+
+</LinearLayout>

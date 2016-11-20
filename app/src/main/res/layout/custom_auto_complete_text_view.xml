@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/details_rl"
+    android:layout_width="match_parent"
+
+    android:layout_height="52dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/details_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/SelectCity"
+                style="@style/t1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="@drawable/ed_adress"
+                android:clickable="true"
+                android:completionThreshold="1"
+                android:gravity="center_vertical|start"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="40"
+                android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                android:paddingStart="5dp"
+                android:text=""
+                android:hint="@string/city"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color1"
+                android:windowSoftInputMode="stateVisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp">
+
+            <AutoCompleteTextView
+                android:id="@+id/SelectAdress"
+                style="@style/t1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="end"
+                android:background="@drawable/ed_adress"
+                android:clickable="true"
+                android:completionThreshold="1"
+                android:gravity="center_vertical|start"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:maxLength="40"
+                android:paddingStart="5dp"
+                android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                android:text=""
+                android:hint="@string/adress"
+                android:textColor="@color/color1"
+                android:textColorHint="@color/color1"
+                android:windowSoftInputMode="stateVisible" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/detalis_view"
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+</RelativeLayout>

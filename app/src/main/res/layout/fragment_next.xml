@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/margin_top"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+    android:background="@drawable/bg_pic_supplier_x1"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/day"
+            style="@style/t1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/buttons_hight"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/light_gray_9"
+            android:gravity="center"
+            android:text="@string/day" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/week"
+            style="@style/t1"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/buttons_hight"
+            android:layout_weight="1"
+            android:background="@color/light_gray_8"
+            android:gravity="center"
+            android:text="@string/week" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/month"
+            style="@style/t1"
+            android:textAllCaps="false"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/buttons_hight"
+            android:layout_weight="1"
+            android:background="@color/dark_gray_7"
+            android:gravity="center"
+            android:text="@string/month" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/list"
+            style="@style/t1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/buttons_hight"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@color/dark_gray_6"
+            android:gravity="center"
+            android:text="@string/list" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container_calander"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</LinearLayout>

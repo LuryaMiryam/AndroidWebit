@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_da235be678052e1b731f7af1ec1d6d0526d3061c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.6.2\f1bc476cc167b18e66c297df599b2377131a8947\gson-2.6.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.6.2_28789111e52a6f7eb0e307c4a36a7bf33f80700b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-measurement-8.4.0_c13b158a8e03edf51b839aa2ed3938bcde3d93fa\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\percent\23.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6e7040af4ab4aa797cbf6e6eacf94fcf241ae8f0">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-percent-23.1.0_501be1a2ad35ae8b703418080b442946bab9f886\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_af99b11f5c46e6a060c470ff1e92780e6a538d58\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.4.0_1574f149647149d1e276a764b36499d8a187aec9\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="6af176a84bf9404fbfe257ad84a7b91f78c43700">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_096ecbeb7422081f7fe3460de92e8b0fc7ee8986\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_24d12048faa7b33f1348b9f6c69b9608aebcad65\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_8644cd0ec20f740dc9168d08588a6db4ec1855e3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.4.0_e882e90fa838d11993740b3730b3e0dd30fdec8f\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_e967602cedb3cdf27c5916205188b8064fdde338\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.splunk.mint\mint\4.4.0\ccf19711fdad9f12a44517dc9ed639911297ef1f\mint-4.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ccf19711fdad9f12a44517dc9ed639911297ef1f">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\mint-4.4.0_cee67e34074f5f2ac29e8a76076bfdce8ffd3906\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.jbundle.util.osgi.wrapped\org.jbundle.util.osgi.wrapped.org.apache.http.client\4.1.2\98c86e42679fe7ac066f6c242e0d14f0bce0bb7c\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="98c86e42679fe7ac066f6c242e0d14f0bce0bb7c">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\org.jbundle.util.osgi.wrapped.org.apache.http.client-4.1.2_abc33a735cd8a6b9d4ed9ae1cef7a33cf15d5b7a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.4.0_36ab606c62714e2ee788bc10eadd4e5f6375c698\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\io.realm\realm-annotations\1.2.0\5e4042f9e0d39e0d01d4a8661d01e24995b2cbef\realm-annotations-1.2.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5e4042f9e0d39e0d01d4a8661d01e24995b2cbef">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\realm-annotations-1.2.0_8185dc7cb8f882d1ab892aab5b6ea59265026a4b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-8.4.0_ae64af9cba11ea6a6e7b720213768242356dedb0\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.1.0_3888d287115a28fd1c67d619cd803d76b519f298\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="2d1eaa9e0b98f8fc4c2b989d9b30d4f1480648ac">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.4.0_cb02156fb3706ea1ba7234caff188c2c43db7326\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_8b571364c1229a5ecc4fef863acb773b0c466b91\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-8.4.0_27aeb9fa1247c16a3f3408ec04a76eba9689c168\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\io.realm\realm-android-library\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="15a3e65c92d3cde64c725dba8d590a1123d2d213">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.realm-realm-android-library-1.2.0_5c0bf5f286ed7f79a216f6c913b3ae9b63ab4611\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-8.4.0_d0b3b86ebb7dc4b8f617471475309586526f34d3\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\design\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.4.0_c7e7e743b0679ca78ca7fc3990a5bcc989d38386\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-8.4.0_dd14078165765bf249af2fa27c404480c8d21a3d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d943d39588748ee1117c83ea9058a2d6416cb70b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_cf28bf1b213dc387f16a35afc5eb72cc7bf51730\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.4.0_e0f70515ca74a1c38b473343d6286dec3835765b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.jjoe64\graphview\4.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="37bf8de5b4f9e7e93006db783b9b3168e32e38e9">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jjoe64-graphview-4.0.1_9e9fd184e1088db26f466c39fcf28efa874b6423\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.15.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="820605b42a2d3d9cb9e6c4cc7453fb4f802aedff">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.15.0_4cc778afbf9a93cc7902cecfcae8a8ec9b6b9f13\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\eu.the4thfloor.volley\com.android.volley\2015.05.28\b0b08cc0ac897e596abe6b263a9507cba875b705\com.android.volley-2015.05.28.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-2015.05.28_9c5c51192bee39af4aa6cd771eb037a39ab9687c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.github.jjobes\SlideDateTimePicker\v1.0.4\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ac6fd54c55b470e89ca5a8fc97424f7130de3175">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.jjobes-SlideDateTimePicker-v1.0.4_27d876fcf910acc24ad3196ab45deef38f779d19\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="37f2962ecaf2864310d1deae08310694a8d016ef">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d2a54f9c32b2d6e3c1decc96c5a9825162e80032\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-8.4.0_138017a7b9d3fa6ace032dd06137099919ef171a\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.getkeepsafe.relinker\relinker\1.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="264f0bc4c0680cfe7a60fea1f12a43f1ab48e7c8">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.getkeepsafe.relinker-relinker-1.2.1_f2f4d02c27d978d72c3177527e5a74744b44979b\classes.dex" />
+    </item>
+    <item
+        jar="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Dev\BThereAndroid\BthereApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.4.0_aaf1e2f6057f6514e87a9f4cc2c66d247f97aa88\classes.dex" />
+    </item>
+
+</items>

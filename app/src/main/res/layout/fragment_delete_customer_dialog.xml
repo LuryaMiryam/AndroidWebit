@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+
+        android:id="@+id/cancel_title_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/client_galaxy_icons1_22" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/welcome_title"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:text="@string/delete_customer"
+            android:textColor="@color/color4"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cancel_title_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/choose_delete"
+            android:textColor="@color/color1" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/welcome_title"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/color1" />
+    </LinearLayout>
+
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:id="@+id/ok"
+        style="@style/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingStart="7dp"
+        android:textAllCaps="false"
+        android:paddingEnd="7dp"
+        android:layout_below="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginBottom="15dp"
+         android:background="@color/color4"
+        android:gravity="center"
+        android:text="@string/ok_and_delete"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

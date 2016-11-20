@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/r_buttons"
+    android:layout_width="match_parent"
+    android:layout_height="61.5dp"
+    android:background="@color/transparent"
+    android:minHeight="61.5dp">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/view_color" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/row_r"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/buttons"
+                        android:layout_width="60.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@color/dark_gray_6"
+                        android:orientation="horizontal">
+                        android:layout_width="81.5dp"
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color" />
+
+                        <RelativeLayout
+                            android:id="@+id/more_information"
+                            android:layout_width="60.5dp"
+                            android:layout_height="@dimen/ser_op_h"
+                            android:orientation="vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="13dp">
+                            android:layout_width="@dimen/ser_op_w"
+
+                            <ImageView
+                                android:layout_width="60.5dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerVertical="true"
+                                android:paddingBottom="@dimen/padding_image"
+                                android:paddingTop="@dimen/padding_image"
+                                android:src="@drawable/supplier_galaxy_icons_x1_44" />
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/service_row"
+                    android:layout_width="300dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="end"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="61.5dp">
+
+                        <RelativeLayout
+                            android:layout_width="60.5dp"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="60.5dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerHorizontal="true"
+                                android:layout_gravity="start|center_horizontal"
+                                android:paddingBottom="@dimen/padding_image"
+                                android:paddingTop="@dimen/padding_image"
+                                android:src="@drawable/eye_no" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="@dimen/personal_details_viewlayout_height"
+                            android:layout_height="match_parent"
+                            android:background="@color/view_color" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center_vertical">
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                                android:id="@+id/date"
+                                style="@style/t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingStart="15dp"
+                                android:text="date"
+                                android:textColor="@color/pink" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                                android:id="@+id/time"
+                                style="@style/t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingStart="15dp"
+                                android:text="time" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:id="@+id/type"
+                                style="@style/t1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical"
+                                android:paddingStart="15dp"
+                                android:text="type" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

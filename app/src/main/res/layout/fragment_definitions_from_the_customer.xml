@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/welcome_title_"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="27.5dp"
+            android:layout_marginTop="27.5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/definitions"
+            android:textColor="@color/color3"
+            android:textStyle="bold" />
+
+    <GridView
+        android:layout_below="@+id/welcome_title_"
+        android:id="@+id/definitions"
+        android:horizontalSpacing="17dp"
+        android:columnWidth="100dp"
+        android:layout_width="334dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:numColumns="3"
+        android:verticalSpacing="17dp" />
+
+
+
+</RelativeLayout>
+

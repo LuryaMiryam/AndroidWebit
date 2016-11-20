@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/register_user_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/title"
+                style="@style/h1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="13dp"
+                android:text="@string/personal_datails"
+                android:textColor="@color/orange"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="13dp">
+                android:id="@+id/p_camera_ll"
+
+                <RelativeLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/imgSrc_r">
+
+                    <ImageButton
+                        android:id="@+id/p_camera"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="10dp"
+
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/client_galaxy_icons1_33" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/imgSrc_r"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal">
+                    <RelativeLayout
+                        android:id="@+id/image_full"
+                        android:visibility="invisible"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/profile_image"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/supplier_galaxy_icons_x1_47"
+                            app:civ_border_color="@color/transparent"
+                            app:civ_border_width="0dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:visibility="visible"
+                        android:id="@+id/image_empty"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true">
+
+
+                        <ImageView
+                            android:id="@+id/imgSrc"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:background="@drawable/aaa"
+                            android:scaleType="fitXY" />
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/supplier_galaxy_icons_x1_47" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/f_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/fnameerror"
+            app:et_hint="@string/first_name"
+            app:et_input_type="it_text"
+            app:et_is_required="true"
+            app:et_pattern="^[\\p{L} .'-]+$" />
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/l_name"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            app:et_error="@string/lnameerror"
+            app:et_hint="@string/last_name"
+            app:et_input_type="it_text"
+            app:et_is_required="true"
+            app:et_pattern="^[\\p{L} .'-]+$" />
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:imeOptions="actionNext"
+            app:et_error="@string/phoneerror"
+            app:et_hint="@string/phone"
+            app:et_input_type="it_phone"
+            app:et_is_required="true"
+            app:et_pattern="^[0-9]{10}" />
+
+        <webit.bthereapp.CustemViews.DetailsEt
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:imeOptions="actionNext"
+            app:et_error="@string/adrerror"
+            app:et_hint="@string/mail"
+            app:et_input_type="it_mail_adress"
+            app:et_is_required="true"
+            app:et_pattern="^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$" />
+
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <LinearLayout
+            android:id="@+id/born_date_ll"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/born_date_tv"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="start"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|start"
+                android:inputType="date"
+                android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                android:paddingStart="14dp"
+                android:text="@string/born_date"
+                android:textColor="@color/sysGray" />
+        </LinearLayout>
+
+        <webit.bthereapp.CustemViews.CustomDatePicker
+            android:id="@+id/cDate"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:visibility="gone" />
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <LinearLayout
+            android:id="@+id/date_of_marriage_ll"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/marriage_date"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_gravity="start"
+                android:background="@android:color/transparent"
+                android:gravity="center_vertical|start"
+                android:inputType="date"
+                android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                android:paddingStart="14dp"
+                android:text="@string/date_of_marriage"
+                android:textColor="@color/sysGray" />
+        </LinearLayout>
+
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:orientation="horizontal"
+            android:paddingStart="14dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="7dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="7dp"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/al_sign_in_or_out"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/syn_with_my_calendar" />
+
+            </LinearLayout>
+
+            <webit.bthereapp.CustemViews.YesOrNo_White
+                android:id="@+id/al_yn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="end"
+                android:clickable="true"
+                android:focusable="true" />
+
+
+        </RelativeLayout>
+
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:paddingStart="9dp"
+            android:weightSum="2">
+
+            <webit.bthereapp.CustemViews.CustomSpinner
+                android:id="@+id/view_calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:customSpinnerSize="large"
+                app:customSpinnerType="view_calendar" />
+
+
+        </LinearLayout>
+
+        <View
+            style="@style/personal_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_color" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/required"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="7dp"
+            android:paddingStart="14dp"
+            android:text="@string/required" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/save"
+            style="@style/t1"
+            android:layout_width="80dp"
+            android:textAllCaps="false"
+            android:layout_height="@dimen/personal_details_sign_b_height"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/personal_details_sign_b_marginBottom"
+            android:layout_marginTop="30dp"
+            android:background="@color/color3"
+            android:text="@string/save_"
+            android:textColor="#ffffff" />
+
+
+    </LinearLayout>
+
+</ScrollView>

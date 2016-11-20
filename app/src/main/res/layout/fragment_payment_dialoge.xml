@@ -1,0 +1,224 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_trans"
+    android:orientation="vertical"
+    android:minWidth="1000dp"
+    android:paddingEnd="13dp"
+    android:paddingStart="13dp"
+    android:paddingTop="5dp"
+    android:clickable="true">
+    <RelativeLayout
+        android:layoutDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="68.5dp">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:src="@drawable/xwhite" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:text="@string/paymentTitle"
+            android:textColor="@color/pink" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/light_gray_9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/arror_white" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        style="@style/t1"
+        android:layout_centerVertical="true"
+         android:id="@+id/numCardTv"
+
+        android:paddingStart="15dp"
+        android:textColor="@color/light_gray_9"
+        android:text="@string/numCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularEditText
+            style="@style/t2"
+            android:gravity="end"
+            android:id="@+id/numCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:nextFocusDown="@+id/threeNumbers"
+            android:inputType="number"
+            android:paddingStart="15dp"
+            android:singleLine="true"
+            android:textColor="@color/light_gray_9" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_gray_9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/arror_white" />
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:id="@+id/validityTv"
+            android:textSize="17dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/light_gray_9"
+            android:text="@string/validity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+            style="@style/t2"
+            android:gravity="end"
+            android:textSize="17dp"
+            android:id="@+id/validity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:paddingStart="15dp"
+            android:singleLine="true"
+            android:textColor="@color/light_gray_9"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_gray_9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/arror_white" />
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:id="@+id/threeNumbersTv"
+            android:textSize="17dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/light_gray_9"
+            android:text="@string/threeNumbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularEditText
+            style="@style/t2"
+            android:gravity="end"
+            android:id="@+id/threeNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:nextFocusDown="@+id/tz"
+            android:inputType="number"
+            android:maxLength="3"
+            android:paddingStart="15dp"
+            android:singleLine="true"
+            android:textColor="@color/light_gray_9" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_gray_9" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/arror_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:id="@+id/tzTv"
+            android:textSize="17dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/light_gray_9"
+            android:text="@string/tz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularEditText
+            style="@style/t2"
+            android:gravity="end"
+            android:id="@+id/tz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:maxLength="9"
+            android:paddingStart="15dp"
+            android:singleLine="true"
+            android:textColor="@color/light_gray_9" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_gray_9" />
+<RelativeLayout
+    android:layout_gravity="center_horizontal"
+    android:layout_width="wrap_content"
+    android:layout_marginTop="25dp"
+    android:layout_height="wrap_content">
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:id="@+id/send"
+        style="@style/button"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:text="@string/send" />
+</RelativeLayout>
+</LinearLayout>
+

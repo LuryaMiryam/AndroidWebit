@@ -1,0 +1,183 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18.5dp">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h1"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/report_operational_utilization"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/back"
+            android:layout_width="43.5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:paddingStart="1dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:layout_gravity="center"
+                android:src="@drawable/back" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/back"
+                android:textColor="@color/light_blue" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14.5dp"
+        android:layout_marginTop="14.5dp"
+        android:gravity="center">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginEnd="4dp"
+            android:text="@string/utilize_in_month_1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:text="@string/utilize_in_month_num_1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:text="@string/utilize_in_month_2" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="2dp"
+            android:gravity="center"
+            android:text="@string/utilize_in_month_num_2" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            style="@style/h2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/utilize_in_month_3" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="334dp"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="@color/black" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        style="@style/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="13dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/division_of_month" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="19dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingEnd="5dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/chooseFrom"
+                style="@style/t1"
+                android:layout_width="120dp"
+                android:layout_height="27.5dp"
+                android:layout_gravity="start|center_vertical"
+                android:background="@color/light_gray_2"
+                android:gravity="center"
+                android:text="@string/from_date"
+                android:textColor="@color/color1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingEnd="5dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/chooseTo"
+                style="@style/t1"
+                android:layout_width="120dp"
+                android:layout_height="27.5dp"
+                android:layout_gravity="start|center_vertical"
+                android:background="@color/light_gray_2"
+                android:gravity="center"
+                android:text="@string/to_date"
+                android:textColor="@color/color1" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="@dimen/activity_horizontal_margin"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="app.num.graphview.MainActivity">
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="303dp"
+            android:layout_height="319dp"
+            android:layout_centerHorizontal="true"
+            android:title="Graph Title" />
+
+    </RelativeLayout>
+
+</LinearLayout>

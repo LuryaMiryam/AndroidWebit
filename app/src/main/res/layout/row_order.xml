@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61.5dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="60.5dp"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/padding_image"
+            android:paddingTop="@dimen/padding_image"
+            android:src="@drawable/eye_no" />
+
+        <View
+            android:layout_width="@dimen/personal_details_viewlayout_height"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/date"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:paddingStart="15dp"
+                android:text="date"
+                android:textColor="@color/pink" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/time"
+                android:layout_toEndOf="@+id/date"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="time"
+                android:textColor="@color/black" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/type"
+                style="@style/t1"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingStart="15dp"
+                android:text="type"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:background="@color/black" />
+</LinearLayout>

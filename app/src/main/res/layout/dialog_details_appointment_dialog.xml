@@ -1,0 +1,384 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/title"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="@string/details_qweue"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+    </RelativeLayout>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+        android:id="@+id/cus"
+        style="@style/h2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text=""
+        android:textColor="@color/color1"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cus"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:orientation="vertical">
+
+        <webit.bthereapp.Screens.Supplier.CustomSpinnerLarge
+            android:id="@+id/det_app_give_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:customSpinnerLargeType="det_app_give_service" />
+
+        <webit.bthereapp.Screens.Supplier.CustomSpinnerLarge
+            android:id="@+id/det_app_type_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:customSpinnerLargeType="det_app_type_service" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cancel_title_"
+        android:layout_marginBottom="13.5dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/txt_type"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="start"
+            android:text="@string/date"
+            android:textColor="@color/color1" />
+
+        <RelativeLayout
+            android:id="@+id/date"
+            android:layout_width="172.5dp"
+            android:layout_height="27.5dp"
+            android:layout_alignParentEnd="true"
+            android:background="@color/dark_gray_6_tra"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="15dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/down_arrow" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/date_tv"
+                style="@style/t1"
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="start"
+                android:text="@string/choose"
+                android:textColor="@color/color1" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancel_title_"
+            android:layout_marginBottom="13.5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:text="@string/from_hour"
+                android:textColor="@color/color1" />
+
+            <RelativeLayout
+                android:layout_width="172.5dp"
+                android:layout_height="27.5dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/dark_gray_6_tra"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/down_arrow" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/from_hour_id"
+                    style="@style/t1"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="start|center_vertical"
+                    android:textColor="@color/color1" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancel_title_"
+            android:layout_marginBottom="13.5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="start"
+                android:text="@string/to_hour"
+                android:textColor="@color/color1" />
+
+            <RelativeLayout
+                android:layout_width="172.5dp"
+                android:layout_height="27.5dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/dark_gray_6_tra"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/down_arrow" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/to_hour_id"
+                    style="@style/t1"
+                    android:layout_width="180dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginStart="5dp"
+                    android:background="@android:color/transparent"
+                    android:gravity="start|center_vertical"
+                    android:textColor="@color/color1" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cus"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="37dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cancel_title_"
+
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="start"
+
+                android:text="@string/comments"
+                android:textColor="@color/color1" />
+
+            <RelativeLayout
+                android:layout_width="172dp"
+                android:layout_height="50dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/dark_gray_6_tra"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+                    style="@style/t1"
+                    android:layout_width="172.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="top|start"
+                    android:background="@android:color/transparent"
+                    android:textColor="@color/color1" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/update"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:paddingStart="7dp"
+            android:textAllCaps="false"
+            android:paddingEnd="7dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@color/color4"
+            android:gravity="center"
+            android:text="@string/update_datails"
+            android:textColor="@android:color/white" />
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="43dp">
+
+            <LinearLayout
+                android:id="@+id/cancel_appointment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:background="@color/color4">
+
+                <ImageView
+                    android:layout_width="27.5dp"
+                    android:layout_height="27.5dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/supplier_galaxy_icons_x1_25" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    style="@style/t1"
+                    android:layout_width="91.5dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="end"
+
+                    android:background="@color/color4"
+                    android:gravity="center"
+                    android:text="@string/cancel_qweue"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:background="@color/color4">
+
+                <ImageView
+                    android:layout_width="27.5dp"
+                    android:layout_height="27.5dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:padding="3dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/supplier_galaxy_icons_x1_26" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    style="@style/t1"
+                    android:layout_width="91.5dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="start"
+                    android:background="@color/color4"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/call"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

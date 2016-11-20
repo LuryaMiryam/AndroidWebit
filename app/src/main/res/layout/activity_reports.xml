@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:weightSum="12.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_weight="1.3"
+            android:id="@+id/regulation_title_"
+            android:layout_width="match_parent"
+            android:layout_height="0dip">
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="end|top"
+                android:layout_margin="15dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/client_galaxy_icons1_22" />
+
+            <LinearLayout
+                android:id="@+id/welcome_title_"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                    android:id="@+id/welcome_title"
+                    style="@style/h1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/reports"
+                    android:textColor="@color/color4"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_operational_utilization"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_number_of_customers"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_new_customers"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_customers_with_a_select_period_of_time_line"
+            android:textColor="@color/color1" />        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_customers_birthdays"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_number_of_lines"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_lines_by_dividing_service"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_lines_b_dividing_service_providers"
+            android:textColor="@color/color1" />        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_turns_customer_come_or_do_not_come"
+            android:textColor="@color/color1" />        <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_turns_determined_by_the_customer_or_supplier"
+            android:textColor="@color/color1" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularButton
+            style="@style/t1"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:textAllCaps="false"
+            android:gravity="start|center_vertical"
+            android:text="@string/reports_payment_via_app"
+            android:textColor="@color/color1" />
+
+
+
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>
+

@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/all_hours"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:orientation="horizontal"
+            android:visibility="visible"
+            android:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="7">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/color4">
+
+                    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:text="@string/day"
+                        android:textColor="@color/color_white" />
+                </RelativeLayout>
+
+                <View
+                    style="@style/personal_details_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/personal_details_viewlayout_height"
+                    android:background="@color/color_white" />
+
+                <ListView
+                    android:id="@+id/working_hours_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="6" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/black"
+                    android:orientation="vertical"
+                    android:weightSum="7">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/color4">
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:text="@string/to_hour"
+                            android:textColor="@color/color_white" />
+                    </RelativeLayout>
+
+                    <View
+                        style="@style/personal_details_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/personal_details_viewlayout_height"
+                        android:background="@color/color_white" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w11"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w12"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w13"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w14"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w15"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w16"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.2"
+                    android:background="@color/black">
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:background="@color/color_white" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="3dp"
+                        android:layout_marginStart="3dp"
+                        android:background="@color/color_white" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:background="@color/color_white" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/black"
+                    android:orientation="vertical"
+                    android:weightSum="7">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/color4">
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:text="@string/from_hour"
+                            android:textColor="@color/color_white" />
+
+                    </RelativeLayout>
+
+                    <View
+                        style="@style/personal_details_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/personal_details_viewlayout_height"
+                        android:background="@color/color_white" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                    <webit.bthereapp.CustemViews.TimeText
+                        android:id="@+id/w6"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/breaks"
+            style="@style/t1"
+            android:layout_width="match_parent"
+            android:layout_height="53.5dp"
+            android:background="@android:color/transparent"
+            android:gravity="start|center_vertical"
+            android:paddingStart="@dimen/personal_details_et_paddingRight"
+            android:text="@string/breaks"
+            android:textColor="@color/color1" />
+
+        <LinearLayout
+            android:id="@+id/hours_lb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:weightSum="7">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/color4">
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_gravity="center"
+                            android:text="@string/day"
+                            android:textColor="@color/color_white" />
+                    </RelativeLayout>
+
+                    <View
+                        style="@style/personal_details_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/personal_details_viewlayout_height"
+                        android:background="@color/color_white" />
+
+                    <ListView
+                        android:id="@+id/race_hours_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_weight="6" />
+
+                </LinearLayout>
+
+                <!--check if the next id is right-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@color/black"
+                        android:orientation="vertical"
+                        android:weightSum="7">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/color4">
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:text="@string/to_hour"
+                                android:textColor="@color/color_white" />
+                        </RelativeLayout>
+
+                        <View
+                            style="@style/personal_details_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/personal_details_viewlayout_height"
+                            android:background="@color/color_white" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r11"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r12"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r13"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r14"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r15"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r16"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout"
+                        android:layout_width="0dip"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.2"
+                        android:background="@color/black">
+
+                        <View
+                            android:id="@+id/View1"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:background="@color/color_white" />
+
+                        <View
+                            android:id="@+id/View2"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginEnd="3dp"
+                            android:layout_marginStart="3dp"
+                            android:background="@color/color_white" />
+
+                        <View
+                            android:id="@+id/View3"
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentEnd="true"
+                            android:background="@color/color_white" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:background="@color/black"
+                        android:orientation="vertical"
+                        android:weightSum="7">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:background="@color/color4">
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center"
+                                android:text="@string/from_hour"
+                                android:textColor="@color/color_white" />
+
+                        </RelativeLayout>
+
+                        <View
+                            style="@style/personal_details_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/personal_details_viewlayout_height"
+                            android:background="@color/color_white" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:clickable="true" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                        <webit.bthereapp.CustemViews.TimeText
+                            android:id="@+id/r6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                android:id="@+id/save_breaks"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:paddingStart="7dp"
+                android:paddingEnd="7dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="13dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:text="@string/save_continue"
+                android:textColor="@color/light_gray_2"
+                android:textSize="@dimen/personal_details_b_image_textSize" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+

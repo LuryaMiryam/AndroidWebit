@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minWidth="400dp"
+    android:layout_margin="15dp"
+    android:background="@color/light_gray_9">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:orientation="vertical">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/title"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="13dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/qweues_to_cus_h"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+
+        <ListView
+            android:id="@+id/qweues_list"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/title"></ListView>
+    </RelativeLayout>
+</RelativeLayout>
+

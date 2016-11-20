@@ -1,0 +1,97 @@
+<LinearLayout
+    android:background="@color/black_trans"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:theme="@android:style/Theme.NoTitleBar"
+   >
+
+   <RelativeLayout
+       android:paddingTop="12dp"
+       android:paddingBottom="12dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+       android:id="@+id/title_change_place"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true"
+       android:textColor="@color/pink"
+       android:text="@string/change_place"
+       style="@style/h1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+      <ImageButton
+          android:layout_centerVertical="true"
+          android:layout_marginEnd="8dp"
+          android:layout_alignParentEnd="true"
+        android:background="@drawable/x_dilog"
+          android:id="@+id/close_change_place"
+          android:layout_width="25dp"
+          android:layout_height="25dp" />
+   </RelativeLayout>
+
+   <LinearLayout
+       android:layout_marginEnd="15dp"
+       android:layout_marginStart="15dp"
+       android:layout_gravity="center"
+       android:id="@+id/search_line"
+       android:layout_width="match_parent"
+       android:layout_height="55dp"
+       android:layout_marginTop="12dp"
+       android:background="@color/color8"
+       android:orientation="horizontal"
+       android:weightSum="5"
+       >
+      <webit.bthereapp.CustemViews.Fonts.CustemLightAutoCompleteTextView
+          android:id="@+id/auto_complete_cities"
+          android:textColor="@color/color1"
+          style="@style/t1"
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_alignParentStart="true"
+          android:layout_alignParentTop="true"
+          android:alpha="0.5"
+          android:background="#CBC5BE"
+          android:hint="@string/input_city_for_search"
+          android:imeOptions="actionSearch"
+          android:paddingStart="5dp"
+          android:singleLine="true"
+          android:textColorHint="@color/color1"
+          android:layout_weight="4.2"
+          android:popupBackground="@color/transparent"
+          />
+      <RelativeLayout
+          android:id="@+id/search_button"
+          android:layout_width="0dp"
+          android:layout_weight="0.8"
+          android:layout_height="match_parent"
+          android:layout_toEndOf="@+id/search_line_k2">
+
+         <ImageView
+             android:id="@+id/search_line_iconk"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:layout_centerInParent="true"
+             android:layout_centerVertical="true"
+             android:layout_margin="5dp"
+             android:background="@color/color8"
+             android:scaleType="fitXY"
+             android:src="@drawable/client_galaxy_icons1_21" />
+         <View
+             android:id="@+id/search_line_k2"
+             android:layout_width="0.5dp"
+             android:layout_height="62dp"
+             android:layout_alignParentStart="true"
+             android:background="@color/view_color"
+             android:paddingStart="5dp" />
+      </RelativeLayout>
+
+   </LinearLayout>
+
+</LinearLayout>

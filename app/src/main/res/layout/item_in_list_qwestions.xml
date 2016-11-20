@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/packege_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="7dp"
+    android:paddingStart="7dp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/click"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+        android:id="@+id/qwes_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="23.12.2015"
+        android:textColor="@color/color4" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+        android:id="@+id/qwes_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="start"
+        android:text="ujgvdghjhijgvydtdktf fyu ygg g iuik" />
+</LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/open">
+    <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+        android:id="@+id/answer_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="start"
+        android:text="ujgvdghjhijgvydtdktf fyu ygg g iuik" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color1" />
+</LinearLayout>

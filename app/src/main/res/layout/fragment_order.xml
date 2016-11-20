@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_order"
+        android:paddingBottom="17dp">
+        <RelativeLayout
+            android:paddingTop="@dimen/margin_waiting_list"
+            android:paddingBottom="@dimen/margin_waiting_list"
+            android:paddingEnd="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_alignParentStart="true"
+                android:id="@+id/order_close"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:background="@color/black"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginStart="10dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/back" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    style="@style/t4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/back"
+                    android:layout_marginStart="3dp"
+                    android:textColor="@color/light_blue" />
+            </LinearLayout>
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:gravity="center"
+                android:layout_centerHorizontal="true"
+                style="@style/h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/i_want_to_order"
+                android:textColor="@color/pink"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/spinner"
+            android:layout_width="@dimen/spinner_w"
+            android:layout_height="@dimen/spinner_h"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/light_gray_2"
+            android:layout_weight="10"
+            android:paddingEnd="5dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/choose"
+                style="@style/t1"
+                android:gravity="start"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:background="@color/light_gray_2"
+                android:paddingStart="5dp"
+                android:textColor="@color/color1" />
+            <ImageView
+                android:id="@+id/arror"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="15dp"
+                android:layout_gravity="end|center_vertical"
+                android:src="@drawable/down_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"/>
+    <ListView
+        android:focusable="true"
+        android:id="@+id/service_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
+
+
+

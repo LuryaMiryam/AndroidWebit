@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="330dp"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="10dp">
+<webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+    android:gravity="center_horizontal"
+    android:layout_marginTop="7dp"
+    android:textColor="@color/light_blue"
+    style="@style/h1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/contact_list_string"
+    android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/pic_answer"
+            android:layout_marginEnd="2dp"
+            android:layout_width="50dp"
+            android:layout_gravity="top"
+            android:paddingBottom="2dp"
+            android:layout_height="20dp"
+            android:src="@drawable/logo_black" />
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:text="@string/contact_list_answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_list_answer2"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:layout_marginTop="15dp"
+        style="@style/t1"
+        android:id="@+id/dialog_continue"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/personal_details_sign_b_height"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/light_blue"
+        android:gravity="center"
+        android:text="@string/continue2"
+        android:textColor="@color/color_white" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:gravity="center_horizontal|center_vertical"
+        style="@style/t3"
+        android:textColor="@color/color_white" />
+    <View
+        android:id="@+id/vi"
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:background="@color/color_white" />
+</LinearLayout>

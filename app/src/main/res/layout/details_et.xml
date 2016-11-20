@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/details_rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/details_ll"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="horizontal"
+        android:paddingStart="14dp"
+        android:weightSum="2">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+            android:id="@+id/detalis_et"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_gravity="start"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical|start"
+            android:paddingEnd="@dimen/personal_details_et_paddingRight"
+            android:textColor="@color/color1"
+            android:textColorHint="@color/color1"
+            android:windowSoftInputMode="stateVisible" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/detalis_view"
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+</RelativeLayout>

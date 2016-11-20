@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:CustemCalanderDisplayWeek="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/linearLayoutMainWeek"
+    >
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layoutDirection="ltr"
+        android:id="@+id/linearLayoutTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="@color/color3"
+        android:orientation="horizontal"
+        android:weightSum="9">
+        <LinearLayout
+            android:layout_gravity="start"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"></LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/title_con"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="7"
+            android:orientation="horizontal"
+            android:weightSum="7">
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle100"/>
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle101"/>
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle102"/>
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle103"/>
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle104"/>
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle105"/>
+            <webit.bthereapp.Screens.Calendar.CustemCalanderDisplayWeek
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                CustemCalanderDisplayWeek:nameDay=""
+                CustemCalanderDisplayWeek:numDayWeek=""
+                android:id="@+id/textViewTitle106"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="6000dp"
+        android:fillViewport="true"
+        android:scrollbarStyle="outsideOverlay"
+        android:background="@color/transparent">
+        <LinearLayout
+            android:id="@+id/linearLayoutMainCalander"
+            android:layout_width="fill_parent"
+            android:layout_height="6000dp"
+            android:orientation="horizontal">
+            <View
+                android:id="@+id/View1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/dark_gray_6"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:id="@+id/scroll_"
+    android:orientation="vertical"
+    tools:context="webit.bthereapp.Screens.Register.BusinessRegister.BusinessProfileFragment">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+    <RelativeLayout
+        android:id="@+id/al_meet_en"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/al_incoming_data"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:text="@string/al_incoming_data"
+
+            android:textColor="@color/color1" />
+
+
+        <webit.bthereapp.CustemViews.YesOrNo_White
+            android:id="@+id/al_yn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="end" />
+    </RelativeLayout>
+
+
+    <webit.bthereapp.CustemViews.CustomSpinner
+        android:id="@+id/al_meet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:customSpinnerSize="large"
+        app:customSpinnerType="al_me" />
+
+    <View
+        android:id="@+id/view_2"
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="7dp"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/al_sign_in_or_out"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:text="@string/al_sign_in_or_out"
+                android:textColor="@color/color1" />
+
+        </LinearLayout>
+
+        <webit.bthereapp.CustemViews.YesOrNo_White
+            android:id="@+id/al_yn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end"
+            android:clickable="true"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/born_date_view"
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+    <RelativeLayout
+        android:id="@+id/al_cus_en"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/al_customer_retention"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:text="@string/al_customer_retention"
+            android:textColor="@color/color1" />
+
+        <webit.bthereapp.CustemViews.YesOrNo_White
+            android:id="@+id/al_yn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="end"></webit.bthereapp.CustemViews.YesOrNo_White>
+
+    </RelativeLayout>
+
+    <webit.bthereapp.CustemViews.CustomSpinner
+        android:id="@+id/al_cus_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:customSpinnerSize="large"
+        app:customSpinnerType="al_cus_1"></webit.bthereapp.CustemViews.CustomSpinner>
+
+    <webit.bthereapp.CustemViews.CustomSpinner
+        android:id="@+id/al_cus_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:visibility="gone"
+        app:customSpinnerSize="large"
+        app:customSpinnerType="al_cus_2" />
+
+    <View
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+    <RelativeLayout
+        android:id="@+id/al_up_en"
+        android:layout_width="match_parent"
+        android:layout_height="53.5dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/al_push_updates"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:text="@string/al_push_updates"
+            android:textColor="@color/color1" />
+
+        <webit.bthereapp.CustemViews.YesOrNo_White
+            android:id="@+id/al_yn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:gravity="end" />
+
+    </RelativeLayout>
+
+    <webit.bthereapp.CustemViews.CustomSpinner
+        android:id="@+id/al_up_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:customSpinnerSize="large"
+        app:customSpinnerType="al_up_1"></webit.bthereapp.CustemViews.CustomSpinner>
+
+    <webit.bthereapp.CustemViews.CustomSpinner
+        android:id="@+id/al_up_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0.5dp"
+        android:visibility="gone"
+        app:customSpinnerSize="large"
+        app:customSpinnerType="al_up_2"></webit.bthereapp.CustemViews.CustomSpinner>
+
+    <View
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/view_color" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:id="@+id/alerts_continue"
+        style="@style/t1"
+        android:layout_width="wrap_content"
+        android:paddingStart="7dp"
+        android:paddingEnd="7dp"
+        android:textAllCaps="false"
+        android:layout_height="@dimen/personal_details_sign_b_height"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="end"
+        android:layout_marginEnd="13dp"
+        android:background="@color/light_blue"
+        android:gravity="center"
+        android:text="@string/continue2"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff" />
+
+
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:id="@+id/ok"
+        android:textAllCaps="false"
+        style="@style/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/personal_details_sign_b_height"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="end"
+        android:layout_marginEnd="13dp"
+        android:background="@color/light_blue"
+        android:gravity="center"
+        android:text="@string/ok"
+        android:textColor="#ffffff"
+        android:visibility="gone" />
+
+</LinearLayout>
+</ScrollView>

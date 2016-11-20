@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:orientation="vertical"
+        android:background="@android:color/transparent">
+
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@android:color/transparent"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content">
+    <LinearLayout android:layout_width="match_parent"
+        android:id="@+id/camera_ll"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerInParent="true">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_camera"
+            android:gravity="center"
+            style="@style/t1"
+            android:textColor="#638dff"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:id="@+id/gallery_ll"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerInParent="true">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_from_gallery"
+            android:gravity="center"
+            style="@style/t1"
+            android:textColor="#638dff"
+            android:layout_gravity="center_vertical"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/cancel_ll"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/rounded_corner"
+        android:layout_centerInParent="true">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/t1"
+            android:text="@string/cancel"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="#638dff"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

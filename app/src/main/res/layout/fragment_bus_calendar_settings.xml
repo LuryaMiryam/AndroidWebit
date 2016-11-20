@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical"
+
+    android:paddingTop="8dp">
+
+    <webit.bthereapp.CustemViews.CustomSpinnerWhite
+        android:id="@+id/initial_calendar_view_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:customSpinnerSize="large"
+        app:customSpinnerType="cal_v_f"></webit.bthereapp.CustemViews.CustomSpinnerWhite>
+
+
+    <RelativeLayout
+        android:id="@+id/al_meet_en_"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/personal_details_r_paymant_marginTop"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight">
+
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/cal_que1"
+                style="@style/t1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:text="@string/que_limit_set_app"
+                android:textColor="@color/light_gray_2" />
+
+        <webit.bthereapp.CustemViews.YesOrNo_Black
+            android:id="@+id/cal_yn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"></webit.bthereapp.CustemViews.YesOrNo_Black>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/dairy_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/calendar_meetings_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/personal_details_r_paymant_marginTop"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:paddingTop="@dimen/personal_details_r_paymant_marginTop">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/meetings_number"
+                android:textColor="@color/color_white" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+                android:id="@+id/calendar_meetings_number"
+                style="@style/t1"
+                android:layout_width="85dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="5dp"
+                android:background="@color/light_gray_2"
+                android:inputType="number"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:text="3"
+                android:textColor="@color/color1" />
+
+        </LinearLayout>
+        <webit.bthereapp.CustemViews.CustomSpinnerWhite
+            android:id="@+id/length_of_queues_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:customSpinnerSize="small"
+            app:customSpinnerType="cal_length"></webit.bthereapp.CustemViews.CustomSpinnerWhite>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/meetings_number_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/personal_details_r_paymant_marginTop"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:paddingTop="@dimen/personal_details_r_paymant_marginTop">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            style="@style/t1"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:text="@string/length_of_queues"
+            android:textColor="@color/color_white" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+            android:id="@+id/calendar_length_of_queues"
+            style="@style/t1"
+            android:layout_width="85dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end"
+            android:layout_marginStart="5dp"
+            android:background="@color/light_gray_2"
+            android:inputType="number"
+            android:paddingEnd="5dp"
+            android:paddingStart="5dp"
+            android:textColor="@color/color1" />
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/al_meet_en"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/personal_details_r_paymant_marginTop"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight">
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:layout_centerVertical="true"
+            android:id="@+id/cal_que2"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/syn_with_google_calendar"
+            android:textColor="@color/light_gray_2" />
+
+        <webit.bthereapp.CustemViews.YesOrNo_Black
+            android:id="@+id/cal_yn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="end"></webit.bthereapp.CustemViews.YesOrNo_Black>
+    </RelativeLayout>
+.
+</LinearLayout>

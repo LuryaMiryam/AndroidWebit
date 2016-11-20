@@ -1,0 +1,105 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_trans"
+    android:orientation="vertical">
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/info_top">
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:paddingEnd="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_close"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xwhite"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            style="@style/h1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/pink"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:clickable="false"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+       android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:textColor="@color/color_white"
+            style="@style/t1"
+            android:id="@+id/time"
+            android:text="time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/min"
+            android:layout_toEndOf="@+id/seperate"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/color_white"
+            android:text="@string/min" />
+        <View
+            android:layout_width="@dimen/personal_details_viewlayout_height"
+            android:layout_height="match_parent"
+            android:background="@color/color_white"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp" />
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:textColor="@color/color_white"
+            android:id="@+id/price"
+            style="@style/t1"
+            android:text="price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/shach"
+            style="@style/t1"
+            android:textColor="@color/color_white"
+            android:layout_marginStart="7dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shach" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <View
+        android:background="@color/dark_gray_6"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        android:paddingTop="7dp"
+        android:textColor="@color/color_white"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/t1"
+        android:text="@string/information_service"/>
+
+</LinearLayout>

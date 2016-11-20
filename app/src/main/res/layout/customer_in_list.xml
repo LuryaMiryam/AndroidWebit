@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/r_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/customer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/black" />
+
+                    <RelativeLayout
+                        android:id="@+id/client_row"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/highet_list"
+                        android:layout_gravity="end"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:paddingEnd="17dp"
+                        android:paddingStart="17dp"
+                        android:visibility="visible">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_gravity="center_vertical"
+                                android:layout_width="30dp"
+                                android:layout_height="30dp"
+                                android:src="@drawable/supplier_galaxy_icons_x1_39" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:orientation="horizontal">
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:id="@+id/name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginStart="10dp"
+                                android:text=""
+                                android:textColor="@color/black" />
+
+                            <View
+                                android:layout_width="1dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/black" />
+
+                            <ImageView
+                                android:id="@+id/image"
+                                android:layout_width="47dp"
+                                android:layout_height="55dp"
+                                android:layout_centerVertical="true"
+                                 android:layout_marginTop="3dp"
+                                android:layout_marginBottom="3dp"
+                                android:layout_marginStart="3dp"
+                                android:background="@color/color4"
+                                android:src="@drawable/client_galaxy_icons1_12" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/buttons"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start"
+
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/delete"
+                            android:layout_width="60.5dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="13dp">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/supplier_delete_garbege" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/delete" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/call"
+                            android:layout_width="60.5dp"
+                            android:layout_height="match_parent"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:orientation="vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="13dp">
+
+                            <ImageView
+                                android:id="@+id/order_many_image"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/supplier_call" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:id="@+id/text_choose_many"
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/call" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/appointments"
+                            android:layout_width="60.5dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="13dp">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/supplier_appoutements_client" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/appointments_of_client" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/details"
+                            android:layout_width="60.5dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingBottom="3dp"
+                            android:paddingTop="13dp">
+
+                            <ImageView
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/supplier_client" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/client_details" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/highet_list">
+        <ImageView
+            android:layout_width="@dimen/width_image"
+            android:layout_height="match_parent"
+            android:src="@drawable/eye_no"
+            android:paddingTop="@dimen/padding_image"
+            android:paddingBottom="@dimen/padding_image"  />
+        <View
+            android:layout_width="@dimen/personal_details_viewlayout_height"
+            android:layout_height="match_parent"
+            android:background="@color/black"/>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:weightSum="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:layout_marginStart="7dp"
+                android:id="@+id/date"
+                android:layout_weight="0.25"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/h2"
+                android:textColor="@color/pink"
+                android:text="date"
+                android:gravity="center" />
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/type"
+                android:layout_weight="0.75"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/t1"
+                android:textColor="@color/black"
+                android:text="type"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:background="@color/black"/>
+</LinearLayout>

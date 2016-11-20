@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTimePicker">
+        <attr name="backgroundGeneral" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustomCalnderDisplayMonth">
+        <attr name="numDay" format="string"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustemCalanderDisplayWeek">
+        <attr name="numDayWeek" format="string"></attr>
+        <attr name="nameDay" format="string"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustemCalanderDisplayList">
+        <attr name="DayWeek" format="string"></attr>
+        <attr name="nameDate" format="string"></attr>
+    </declare-styleable>
+    <declare-styleable name="DetailsEt">
+        <attr name="et_validate" format="boolean" />
+        <attr name="et_is_required" format="boolean"></attr>
+        <attr name="et_hint" format="string"></attr>
+        <attr name="et_pattern" format="string"></attr>
+        <attr name="et_error" format="string"></attr>
+        <attr name="et_input_type" format="string">
+
+            <enum name="it_text" value="0"></enum>
+            <enum name="it_number" value="1"></enum>
+            <enum name="it_phone" value="2"></enum>
+            <enum name="it_mail_adress" value="3"></enum>
+            <enum name="it_date" value="4"></enum>
+            <enum name="it_text_password" value="5"></enum>
+            <enum name="it_site" value="6"></enum>
+            <enum name="it_phone_2" value="7"></enum>
+
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomAutoCompleteTextView">
+        <attr name="aut_hint" format="string"></attr>
+        <attr name="aut_height" format="integer"></attr>
+    </declare-styleable>
+    <declare-styleable name="CustomSpinner">
+        <attr name="customSpinnerSize" format="string">
+            <enum name="large" value="0"></enum>
+            <enum name="small" value="1"></enum>
+        </attr>
+
+        <attr name="customSpinnerType" format="string">
+            <enum name="al_me" value="0"></enum>
+            <enum name="al_cus_1" value="1"></enum>
+            <enum name="al_cus_2" value="2"></enum>
+            <enum name="al_up_1" value="3"></enum>
+            <enum name="al_up_2" value="4"></enum>
+            <enum name="al_min" value="5"></enum>
+            <enum name="cal_v_f" value="6"></enum>
+            <enum name="cal_meet_num" value="7"></enum>
+            <enum name="cal_length" value="8"></enum>
+            <enum name="pay_c_c_type" value="9"></enum>
+            <enum name="pay_c_c_nump" value="10"></enum>
+            <enum name="s_service" value="11"></enum>
+            <enum name="s_time" value="12"></enum>
+            <enum name="s_space_time" value="13"></enum>
+            <enum name="s_discount" value="14"></enum>
+            <enum name="s_less" value="15"></enum>
+            <enum name="product_or_service" value="16"></enum>
+            <enum name="view_calendar" value="17"></enum>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomSpinnerLarge">
+        <attr name="customSpinnerLargeType" format="string">
+            <enum name="det_app_give_service" value="0"></enum>
+            <enum name="det_app_type_service" value="1"></enum>
+            <enum name="det_app_date" value="2"></enum>
+            <enum name="det_app_hour" value="3"></enum>
+            <enum name="new_cus_name" value="4"></enum>
+            <enum name="operation_type" value="5"></enum>
+            <enum name="num_customers" value="6"></enum>
+            <enum name="det_app_type_service_2" value="7"></enum>
+            <enum name="det_app_type_service_3" value="8"></enum>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomSpinnerLargeBlack">
+        <attr name="customSpinnerLargeBlackType" format="string">
+            <enum name="black_type_service" value="1"></enum>
+            <enum name="black_date" value="2"></enum>
+            <enum name="black_hour" value="3"></enum>
+            <enum name="black_give_service" value="4"></enum>
+            <enum name="black_provider" value="5"></enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomLightTextView">
+        <attr name="change_font_LTV" format="enum">
+            <enum name="bold" value="1" />
+            <enum name="regular" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomLightEditText">
+        <attr name="change_font_LET" format="enum">
+            <enum name="bold" value="1" />
+            <enum name="regular" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomLightButton">
+        <attr name="change_font_LB" format="enum">
+            <enum name="bold" value="1" />
+            <enum name="regular" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBoldButton">
+        <attr name="change_font_BB" format="enum">
+            <enum name="light" value="1" />
+            <enum name="regular" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBoldEditText">
+        <attr name="change_font_BET" format="enum">
+            <enum name="light" value="1" />
+            <enum name="regular" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CustomBoldTextView">
+        <attr name="change_font_BTV" format="enum">
+            <enum name="light" value="1" />
+            <enum name="regular" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TimeText">
+        <attr name="hour" format="enum">
+            <enum name="start" value="1" />
+            <enum name="finish" value="2" />
+        </attr>
+    </declare-styleable>
+
+
+</resources>

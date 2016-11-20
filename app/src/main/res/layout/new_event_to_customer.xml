@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:orientation="vertical">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                style="@style/h1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/color3"
+                android:layout_marginBottom="40dp"
+                android:text="@string/new_event" />
+            <View
+                style="@style/personal_details_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_color" />
+
+            <LinearLayout
+                android:id="@+id/event_name_ll"
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/event_name"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|start"
+                    android:inputType="date"
+                    android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                    android:paddingStart="14dp"
+                    android:text="@string/event_name"
+                    android:textColor="@color/color1" />
+            </LinearLayout>
+
+            <View
+                style="@style/personal_details_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_color" />
+
+            <LinearLayout
+                android:id="@+id/date_ll"
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/date_tv"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|start"
+                    android:inputType="date"
+                    android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                    android:paddingStart="14dp"
+                    android:text="@string/date"
+                    android:textColor="@color/color1" />
+            </LinearLayout>
+
+            <View
+                style="@style/personal_details_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_color" />   <LinearLayout
+                android:id="@+id/begin_hour_ll"
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/begin_hour_tv"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|start"
+                    android:inputType="date"
+                    android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                    android:paddingStart="14dp"
+                    android:text="@string/begin_hour"
+                    android:textColor="@color/color1" />
+            </LinearLayout>
+
+            <View
+                style="@style/personal_details_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_color" />
+
+            <LinearLayout
+                android:id="@+id/end_hour_ll"
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/end_hour_tv"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|start"
+                    android:inputType="date"
+                    android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                    android:paddingStart="14dp"
+                    android:text="@string/end_hour_"
+                    android:textColor="@color/color1" />
+            </LinearLayout>
+
+            <View
+                style="@style/personal_details_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_color" />
+
+            <LinearLayout
+                android:id="@+id/comments_ll"
+                android:layout_width="match_parent"
+                android:layout_height="52dp">
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/comments_tv"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:layout_gravity="start"
+                    android:background="@android:color/transparent"
+                    android:gravity="center_vertical|start"
+                    android:inputType="date"
+                    android:paddingEnd="@dimen/personal_details_et_paddingRight"
+                    android:paddingStart="14dp"
+                    android:text="@string/comments"
+                    android:textColor="@color/color1" />
+            </LinearLayout>
+
+            <View
+                style="@style/personal_details_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_color" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/color3"
+                android:textAllCaps="false"
+                android:text="@string/set_event"
+                android:id="@+id/option_4"
+                android:textColor="@color/color_white"
+                android:layout_marginBottom="15dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

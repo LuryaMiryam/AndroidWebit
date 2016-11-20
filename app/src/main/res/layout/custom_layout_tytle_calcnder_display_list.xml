@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color3"
+    android:id="@+id/mainRelativelayout">
+    <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+        android:id="@+id/textViewDateList"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="dddddd"
+        android:gravity="center_vertical"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/color_white"/>
+    <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+        android:id="@+id/textViewDayListTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/textViewDateList"
+        android:text="fff"
+        android:textColor="@color/color_white"
+        android:gravity="center_vertical"
+        />
+
+
+</RelativeLayout>

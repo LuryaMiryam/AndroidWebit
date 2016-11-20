@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<webit.bthereapp.CustemViews.Fonts.CustomLightTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customerNameLabel"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:padding="10dp" android:textSize="16sp"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:background="@drawable/line"
+    android:textColor="@color/black">
+</webit.bthereapp.CustemViews.Fonts.CustomLightTextView>

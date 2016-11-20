@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/all"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/r_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layoutDirection="ltr"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/row_r"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/highet_list">
+
+                    <LinearLayout
+                        android:id="@+id/service_row"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/highet_list"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:gravity="center_vertical"
+                        android:layoutDirection="ltr"
+                        android:paddingEnd="10dp"
+                        android:paddingStart="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="start">
+
+                                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                    android:id="@+id/shach"
+                                    style="@style/t1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginEnd="5dp"
+                                    android:text="@string/shach" />
+
+                                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                    android:id="@+id/price"
+                                    style="@style/t1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toEndOf="@+id/shach"
+                                    android:text="price" />
+
+
+                                <View
+                                    android:id="@+id/seperate"
+                                    android:layout_width="@dimen/personal_details_viewlayout_height"
+                                    android:layout_height="25dp"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginEnd="15dp"
+                                    android:layout_marginStart="15dp"
+                                    android:layout_toEndOf="@+id/price"
+                                    android:background="@color/black" />
+
+                                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                    android:id="@+id/min"
+                                    style="@style/t1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginEnd="5dp"
+                                    android:layout_toEndOf="@+id/seperate"
+                                    android:text="@string/min" />
+
+                                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                    android:id="@+id/time"
+                                    style="@style/t1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_toEndOf="@+id/min"
+                                    android:text="time" />
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:id="@+id/service_type_ll"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_gravity="end|center_vertical">
+
+                                <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                                    android:id="@+id/service_type"
+                                    style="@style/h2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_gravity="start"
+                                    android:gravity="start"
+                                    android:paddingStart="5dp"
+                                    android:text="service_type"
+                                    android:textColor="@color/black" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/buttons"
+                        android:layout_width="244.5dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:background="@color/color_white"
+                        android:orientation="horizontal"
+                        android:visibility="visible">
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/more_information"
+                            android:layout_width="@dimen/ser_op_w"
+                            android:layout_height="@dimen/ser_op_h"
+                            android:orientation="vertical"
+
+                            android:paddingTop="13dp">
+                            android:paddingBottom="3dp"
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/client_galaxy_icons1_28" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="bottom|center_horizontal"
+                                android:text="@string/more_information" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+                        <RelativeLayout
+                            android:id="@+id/choose_many"
+                            android:layout_width="@dimen/ser_op_w"
+                            android:layout_height="@dimen/ser_op_h"
+                            android:clickable="true"
+                            android:focusable="false"
+                            android:orientation="vertical"
+
+                            android:paddingTop="13dp">
+                            android:paddingBottom="3dp"
+
+                            <ImageView
+                                android:id="@+id/order_many_image"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/circle_empty" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:id="@+id/text_choose_many"
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_horizontal"
+                                android:text="@string/choose_many" />
+                        </RelativeLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:background="@color/black" />
+
+
+                        <RelativeLayout
+                            android:id="@+id/order"
+                            android:layout_width="@dimen/ser_op_w"
+                            android:layout_height="@dimen/ser_op_h"
+                            android:orientation="vertical"
+
+                            android:paddingTop="13dp">
+                            android:paddingBottom="3dp"
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:layout_alignParentTop="true"
+                                android:layout_centerHorizontal="true"
+                                android:src="@drawable/client_galaxy_icons1_27" />
+
+                            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                                android:id="@+id/order_text"
+                                style="t3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentBottom="true"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_horizontal|bottom"
+                                android:text="@string/order" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/black" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </RelativeLayout>
+</RelativeLayout>

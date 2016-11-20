@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/black_trans"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/color_white"
+        android:gravity="bottom"
+        android:minWidth="200dp"
+              android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/read_more_txt"
+            style="@style/t1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/color1"
+            android:paddingTop="20dp" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:layout_width="200dp"
+            style="@style/t1"
+            android:id="@+id/ok"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom"
+            android:background="@color/color4"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</RelativeLayout>

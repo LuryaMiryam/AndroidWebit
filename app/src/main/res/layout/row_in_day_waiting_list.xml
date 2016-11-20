@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48.5dp">
+
+        <ImageView
+            android:layout_width="41.5dp"
+            android:layout_height="41.5dp"
+            android:layout_gravity="center"
+                 android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@color/color4"
+            android:src="@drawable/client_galaxy_icons1_12" />
+
+        <View
+            android:layout_width="@dimen/personal_details_viewlayout_height"
+            android:layout_height="match_parent"
+            android:layout_marginStart="1dp"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+                android:id="@+id/name"
+                style="@style/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+
+                android:text=""
+                android:textColor="@color/color4" />
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/type"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity=""
+                    android:text=""
+                    android:textColor="@color/black" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/hour"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp"
+                    android:text=""
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/personal_details_viewlayout_height"
+        android:background="@color/black" />
+</LinearLayout>

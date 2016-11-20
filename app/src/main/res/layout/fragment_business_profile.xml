@@ -1,0 +1,492 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    tools:context="webit.bthereapp.Screens.Register.BusinessRegister.BusinessProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@color/color3"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:background="@color/color3"></LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageViewLogo"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:background="@color/color4"
+                    android:clickable="false"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/client_galaxy_icons1_12" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/slogan"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="3.5"
+                android:background="@color/color3"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                    android:id="@+id/nameCompany"
+                    style="@style/h3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                android:text="@string/profilBusinessNameCompanyTitle"
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/sloganCompany"
+                    style="@style/t3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nameCompany" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueTransparent">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/numRaking"
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="3dp"
+                android:paddingEnd="5dp"
+                android:text="0"
+                android:textColor="@color/color_white" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/textViewRakings"
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_toStartOf="@+id/numRaking"
+                android:paddingEnd="5dp"
+                android:paddingStart="5dp"
+                android:text="@string/rankings"
+                android:textColor="@color/color_white" />
+
+            <ImageView
+                android:id="@+id/imageViewRaking"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toStartOf="@+id/textViewRakings"
+                android:paddingEnd="3dp"
+                android:src="@drawable/client_galaxy_icons1_24" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/client_galaxy_icons1_25" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/textViewLocation"
+                style="@style/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginTop="3dp"
+                android:layout_toEndOf="@+id/imageView1"
+                android:textColor="@color/color_white" />
+            android:text="@string/profilBusinessLocation"
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:background="@drawable/fingers"
+                    android:clickable="false"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="90dp"
+            android:weightSum="2">
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.15">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                    android:id="@+id/textViewTime"
+                    style="@style/h2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/timeActivy"
+
+                    android:textSize="15sp" />
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/textViewDayOne"
+                    style="@style/t1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/textViewTime"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="start"
+                    android:padding="3dp"
+                    android:textSize="15sp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="0.85">
+
+                <LinearLayout
+                    android:id="@+id/facebook_buttons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/supplier_galaxy_icons_x1_36" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="35dp"
+                        android:layout_marginEnd="3dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/supplier_galaxy_icons_x1_35" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="8dp">
+
+                    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                        android:id="@+id/to_order_b1"
+                        style="@style/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="9dp"
+                        android:background="@color/color3"
+                        android:paddingEnd="7dp"
+                        android:paddingStart="7dp"
+
+
+                        android:text="@string/tor"
+                        android:textAllCaps="false"
+                        android:textColor="@color/color_white" />
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/facebook_buttons"
+                    android:layout_marginBottom="15dp"
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/map_frame"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"></FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/text_about"
+                style="@style/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_margin="15dp"
+                android:text="@string/information"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/about_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/about"
+                style="@style/t1"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="gone" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/read"
+                style="@style/h3"
+                android:layout_below="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/color3"
+                android:layout_marginStart="8dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/read_more"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayoutAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/color4"
+                        android:clickable="false"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:id="@+id/close_sale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="14dp"
+                            android:layout_height="10dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginTop="4dp"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/down_arrow" />
+                        android:layout_toStartOf="@id/tv"
+
+                        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                            android:id="@+id/tv"
+                            style="@style/h2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="4dp"
+                            android:layout_marginTop="4dp"
+                            android:text="@string/new_sale"
+                            android:textColor="@color/color1" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/TextViewFidbak"
+                style="@style/h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_margin="18dp"
+                android:text="@string/fidbakAdvice" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                android:id="@+id/to_order_b2"
+                style="@style/t1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextViewFidbak"
+                android:layout_marginBottom="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:background="@color/color3"
+                android:text="@string/makingApointment"
+                android:textAllCaps="false"
+                android:textColor="@color/color_white" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/blueTransparent"
+            android:gravity="center">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/thankFidbak3"
+                android:textColor="@color/color_white" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/provider_name"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/color_white"
+                android:visibility="gone" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/thankFidbak1"
+                android:textColor="@color/color_white" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/thankFidbak2"
+                android:textColor="@color/color_white"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearFidback"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/transparent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/color4"
+                    android:clickable="false"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_vertical">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                android:id="@+id/buttonEnter"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/personal_details_sign_b_height"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginEnd="13dp"
+                android:background="@color/color4"
+                android:gravity="center"
+                android:paddingEnd="7dp"
+                android:paddingStart="7dp"
+                android:text="@string/continue2"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/personal_details_b_image_textSize" />
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+                android:id="@+id/ok"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/personal_details_sign_b_height"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginEnd="13dp"
+                android:background="@color/color4"
+                android:gravity="center"
+                android:text="@string/ok"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/personal_details_b_image_textSize"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

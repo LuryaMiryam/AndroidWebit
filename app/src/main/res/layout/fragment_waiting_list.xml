@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/waiting_list_"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:paddingTop="@dimen/margin_waiting_list"
+        android:paddingBottom="@dimen/margin_waiting_list"
+        android:layout_marginBottom="18dp"
+        android:paddingEnd="17dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/close_waiting_list"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/client_galaxy_icons1_22"
+            android:layout_width="22dp"
+            android:layout_height="22dp" />
+   <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+       android:gravity="center"
+       android:layout_centerHorizontal="true"
+       style="@style/h1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/my_waiting_list"
+       android:textColor="@color/pink"/>
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/waiting_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

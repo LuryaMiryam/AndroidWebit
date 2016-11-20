@@ -1,0 +1,75 @@
+{
+  "project_info": {
+    "project_number": "1041765452539",
+    "project_id": "tensile-howl-122313"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041765452539:android:6e2d8769a6ddad5a",
+        "android_client_info": {
+          "package_name": "webit.bthereapp.Screens.Register.UserRegister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041765452539-hvj56ve84k5kuco3ska6m3imqf7degqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8XZ0QVD2wtRU5uZBB0oRooCWSSkFEAUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041765452539:android:dc75daac27f64fa2",
+        "android_client_info": {
+          "package_name": "webit.bthereapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041765452539-hedj58j8p08qa4343ck46mer00kt0m3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webit.bthereapp",
+            "certificate_hash": "DD26DCCC28632A119E03000995EA59A055046629"
+          }
+        },
+        {
+          "client_id": "1041765452539-hvj56ve84k5kuco3ska6m3imqf7degqo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

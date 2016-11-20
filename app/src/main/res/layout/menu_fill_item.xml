@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:layout_weight="1"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+>
+    <RelativeLayout
+        android:id="@+id/rl_triangle_menu_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@color/color3">
+
+        <ImageView
+            android:id="@+id/image_triangle_menu_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:padding="5dp"
+            android:src="@drawable/client_galaxy_icons1_20" />
+
+        <RelativeLayout
+            android:id="@+id/r_item_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+                android:id="@+id/text_triangle_menu_item"
+                style="@style/h2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="3dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#FFF" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

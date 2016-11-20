@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/color1"
+    android:layout_height="39.5dp">
+    <View
+
+        style="@style/personal_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="0.20dp"
+        android:background="@color/color_white" />
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        android:gravity="start|center_vertical"
+        style="@style/t1"
+        android:paddingStart="@dimen/personal_details_r_paymant_paddingRight"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/type_text"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:textColor="@color/color_white"
+        android:text="Header" />
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/welcome_title"
+        android:gravity="center"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/title_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="@string/welcome1"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/color4"
+            style="@style/h1"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold" />
+
+        <ImageView
+
+            android:layout_toEndOf="@+id/title_message"
+            android:id="@+id/pic_massege"
+            android:layout_marginStart="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_black" />
+    </RelativeLayout>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        android:id="@+id/welcome_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_title"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/welcome2"
+        android:textColor="@color/color1"
+        style="@style/t1" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        android:id="@+id/welcome_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome_txt1"
+        android:gravity="center"
+        android:text="@string/welcome3"
+        android:textColor="@color/color1"
+        style="@style/t1"/>
+
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        style="@style/t1"
+        android:id="@+id/welcome_ok"
+        android:layout_width="92.5dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/welcome_txt2"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/color4"
+        android:text="@string/welcome4"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

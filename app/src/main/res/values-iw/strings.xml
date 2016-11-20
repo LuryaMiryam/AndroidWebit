@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bthere </string>
+    <string name="Advertisement">פרסומות.. פרסומות... פרסומות.. פרסומות... פרסומות... פרסומות...</string>
+    <string name="Cancel">ביטול</string>
+    <string name="Existed_user">משתמש קיים</string>
+    <string name="Languages">שפה</string>
+    <string name="Opening_date_calendar">תאריך פתיחת היומן</string>
+    <string name="Wait_for_loading_the_results">המתן לטעינת תוצאות החיפוש</string>
+    <string name="Wait_for_loading_the_selected_service_provider_calendar">המתן לטעינת יומן ספק</string>
+    <string name="You_registered">נרשמת למערכת</string>
+    <string name="_question_">שאלות נפוצות</string>
+    <string name="about_us">אודותינו</string>
+    <string name="add_customer">הוסף לקוח</string>
+    <string name="add_new_worker">הוספת לקוח חדש</string>
+    <string name="add_operation">הוסף מבצע</string>
+    <string name="add_question">הוסף שאלה</string>
+    <string name="add_sale">הוסף מבצע</string>
+    <string name="add_service">הוסף שירות/מוצר</string>
+    <string name="add_worker">הוסף עובד</string>
+    <string name="addbreak">+ הוסף הפסקות</string>
+    <string name="adrerror">כתובת שגויה</string>
+    <string name="adress">כתובת</string>
+    <string name="advanced_search">חיפוש מתקדם</string>
+    <string name="al_90th_minute">דקה 90</string>
+    <string name="al_c_20">20 דקות לפני פגישה</string>
+    <string name="al_c_90">מבצעי דקה 90</string>
+    <string name="al_c_new">עדכונים וחדשות</string>
+    <string name="al_c_ok_b">אישורים מבתי עסק</string>
+    <string name="al_c_ok_wait">עדכוני תור בהמתנה</string>
+    <string name="al_cus_1_text">סוג התראה</string>
+    <string name="al_cus_2_text">תדירות</string>
+    <string name="al_customer_retention">מעקב אחר לקוחות</string>
+    <string name="al_incoming_data">עדכוני פגישה</string>
+    <string name="al_meet_text">סוג התראה</string>
+    <string name="al_min_text">זמן התראה לפני שעת האירוע</string>
+    <string name="al_push_updates">אירועים של לקוחות</string>
+    <string name="al_remark">(לצורך סטטיסטיקות ודיוק זמנים)</string>
+    <string name="al_sign_in_or_out">10 דקות לפני פגישה</string>
+    <string name="al_up_1_text">סוג עדכון</string>
+    <string name="al_up_2_text">תדירות</string>
+    <string name="alerts">התראות</string>
+    <string name="allDays">סמן את כל הימים</string>
+    <string name="appointment_deatils">פרטי התור</string>
+    <string name="appointments">תורים</string>
+    <string name="appointments_of_client">תורי לקוח</string>
+    <string name="arabic">ערבית</string>
+    <string name="area">תחום</string>
+    <string name="areaD">איזור</string>
+    <string name="attention">הודעה</string>
+    <string name="b_credit">אשראי</string>
+    <string name="b_payment">תשלום</string>
+    <string name="b_payment_how">תשלום באמצעות</string>
+    <string name="b_phone">טלפון</string>
+    <string name="b_phone_error">נא הכנס מספר טלפון תקין</string>
+    <string name="back">חזור</string>
+    <string name="begin_hour">שעת התחלה</string>
+    <string name="block">חסום</string>
+    <string name="block_hours">חסימת שעות</string>
+    <string name="born_date">תאריך לידה</string>
+    <string name="break_">הפסקות: %1$s </string>
+    <string name="breaks">הפסקות</string>
+    <string name="bus_activity_time">שעות פעילות*</string>
+    <string name="bus_area">תחום העסק*</string>
+    <string name="bus_calendar_set">הגדרות תורים</string>
+    <string name="bus_contact_synchrun">אישור אנשי קשר</string>
+    <string name="bus_contact_synchrun_ok">האם לאפשר לכל אנשי הקשר ממכשירך להיות לקוחותיך?</string>
+    <string name="bus_contact_synchrun_que">האם תרצה לבחור באופן ידני את לקוחותיך מתוך רשימת אנשי הקשר במכשירך?</string>
+    <string name="bus_det_user">פרטים אישיים</string>
+    <string name="bus_employee">הוספת עובדים</string>
+    <string name="bus_fname">שם פרטי</string>
+    <string name="bus_general_data">נתונים כלליים</string>
+    <string name="bus_lname">שם משפחה</string>
+    <string name="bus_services">שירותים ומוצרים*</string>
+    <string name="bus_slogan">סלוגן/משפט מוביל</string>
+    <string name="business_adress">כתובת</string>
+    <string name="business_ch_p">ח.פ/ת.ז</string>
+    <string name="business_datails_title">פרטי ספק</string>
+    <string name="business_email">אימייל</string>
+    <string name="business_fax">פקס</string>
+    <string name="business_name">שם העסק</string>
+    <string name="business_phone">טלפון</string>
+    <string name="business_site">אתר</string>
+    <string name="business_site_error">כתובת אתר שגויה</string>
+    <string name="business_the_datails_title">פרטי העסק</string>
+    <string name="bussiness_name_error">נא הכנס שם העסק תקין</string>
+    <string name="bussiness_page">לדף העסק</string>
+    <string name="by_my_location">על פי מיקום נוכחי</string>
+    <string name="cal_f_view_text">תצוגת יומן ראשונית</string>
+    <string name="call">חייג</string>
+    <string name="camera">תמונה</string>
+    <string name="camera_">מצלמה</string>
+    <string name="camera_to">צלם תמונה</string>
+    <string name="cancel">ביטול</string>
+    <string name="cancel_open">בטל</string>
+    <string name="cancel_qweue">ביטול התור</string>
+    <string name="cancel_qweue_">ביטול תור</string>
+    <string name="cannot_in_this_state">אין אפשרות לקבוע תור במצב צפיה</string>
+    <string name="cant_enter_waiting_list">אין אפשרות להכנס לרשימת ההמתנה של ספק זה</string>
+    <string name="change_picture">החלף תמונה</string>
+    <string name="change_place">שנה מיקום</string>
+    <string name="checking_a_few">(ניתן לסמן כמה)</string>
+    <string name="chet_pe_error">נא הכנס מספר ח.פ תקין</string>
+    <string name="choose">בחר</string>
+    <string name="choose_checked">הזמן מסומנים</string>
+    <string name="choose_contact_list">בחר את לקוחותייך מתוך רשימת אנשי הקשר</string>
+    <string name="choose_delete">בחרת למחוק מרשימת הלקוחות שלך:</string>
+    <string name="choose_from_gallery">בחר מגלריית תמונות</string>
+    <string name="choose_give_service_">אנא בחר ספק תחילה</string>
+    <string name="choose_many">בחירה מרובה</string>
+    <string name="choose_provider_">אנא בחר נותן שירות תחילה</string>
+    <string name="choose_service">בחר שירות</string>
+    <string name="choose_to_cancel">בחרת לבטל את התור של %1$s</string>
+    <string name="choose_to_cancel_by">בחרת לבטל את התור אצל</string>
+    <string name="choose_to_delay_by">האם להודיע שאתה מאחר לתור שלך אצל</string>
+    <string name="city">עיר</string>
+    <string name="client">מספר לקוחות במקביל</string>
+    <string name="client_details">פרטי לקוח</string>
+    <string name="client_min">מספר לקוחות מינימלי</string>
+    <string name="clients">לקוחות</string>
+    <string name="comments">הערות</string>
+    <string name="connect">התחבר</string>
+    <string name="contact_list_answer1">מאפשרת לך לפרסם את העסק</string>
+    <string name="contact_list_answer2">שלך 24 שעות ביממה ולשמור על \nהלקוחות שלך קרובים מתמיד.  \nסנכרון רשימת אנשי הקשר יסייע לך \nוללקוחות לחסוך זמן יקר. כל לקוח יוכל \nלצפות ביומן שלך בזמן אמת ובכך לקבוע \n תור בקליק - בזמן שנח לך.</string>
+    <string name="contact_list_string">למה כדאי לך לסנכרן את\r\n רשימת אנשי הקשר שלך?\r\nהתשובה פשוטה.</string>
+    <string name="continue2">המשך</string>
+    <string name="continue_">הרשם</string>
+    <string name="credit_card">תשלום באמצעות כרטיס אשראי</string>
+    <string name="customer">לקוח</string>
+    <string name="customers_in_parallel">מס\' לקוחות במקביל</string>
+    <string name="customers_number">מס\' לקוחות במקביל</string>
+    <string name="d1">א</string>
+    <string name="d2">ב</string>
+    <string name="d3">ג</string>
+    <string name="d4">ד</string>
+    <string name="d5">ה</string>
+    <string name="d6">ו</string>
+    <string name="date">תאריך</string>
+    <string name="dateLike">תאריך רצוי</string>
+    <string name="date_of_marriage">תאריך נישואין</string>
+    <string name="dateerror">נא הכנס תאריך לידה תקין</string>
+    <string name="day">יום</string>
+    <string name="day1">יום ראשון</string>
+    <string name="day2">יום שני</string>
+    <string name="day3">יום  שלישי</string>
+    <string name="day4">יום רביעי</string>
+    <string name="day5">יום חמישי</string>
+    <string name="day6">יום שישי</string>
+    <string name="day_name">יום</string>
+    <string name="definitions">הגדרות</string>
+    <string name="delay">איחור בקטנה</string>
+    <string name="delete">מחק</string>
+    <string name="delete_cus">מחק לקוח</string>
+    <string name="delete_customer">מחיקת לקוח</string>
+    <string name="delete_q">האם אתה בטוח שברצונך למחוק את</string>
+    <string name="det_app_date_txt">תאריך</string>
+    <string name="det_app_give_service_txt">נותן השירות</string>
+    <string name="det_app_hour_txt">שעה</string>
+    <string name="det_app_type_service_txt">סוג שירות</string>
+    <string name="details_not_exist">שם משתמש וסיסמה אינם קימים במערכת</string>
+    <string name="details_qweue">פרטי התור</string>
+    <string name="discount">הנחה בהזמנת סדרת תורים / 2 מוצרים ויותר</string>
+    <string name="discount1">הנחה בהזמנת סדרת</string>
+    <string name="discount2">תורים / 2 מוצרים ויותר</string>
+    <string name="distance">מרחק</string>
+    <string name="division_of_month">התפלגות חדשה</string>
+    <string name="domain">תחום</string>
+    <string name="drawer_close">סגירת תפריט צידי</string>
+    <string name="drawer_open">פתיחת תפריט צידי</string>
+    <string name="eDate">התאריך אינו יכול להיות קטן מהיום</string>
+    <string name="eEmpty">נא למלא, שדה חובה</string>
+    <string name="eNumbers">הכנס 3 ספרות</string>
+    <string name="eTz">הכנס תעודת זהות תקינה</string>
+    <string name="empty_fields">הזן פרטים חסרים</string>
+    <string name="empty_hours">נא הזן שעות תקינות</string>
+    <string name="end_hour_">שעת סיום</string>
+    <string name="enter">המשך</string>
+    <string name="enterText">הכנס טקסט</string>
+    <string name="enter_hour">הזן שעות!</string>
+    <string name="enter_hour_period">הכנס שעה בטווח המתאים</string>
+    <string name="enter_hour_valid">הכנס שעה חוקית</string>
+    <string name="enter_marriage">נא הכנס תאריך נישואין תקין</string>
+    <string name="enter_subject">נא הזן תחום</string>
+    <string name="enter_txt">הכנס טקסט</string>
+    <string name="enter_valid_date">נא הזן תאריך תקין</string>
+    <string name="enter_waiting_list">נכנסת בהצלחה לרשימת ההמתנה של ספק זה</string>
+    <string name="erase_from_w">נמחקת מרשימת ההמתנה של הספק</string>
+    <string name="erase_provider">מחק</string>
+    <string name="erase_supplier">האם אתה בטוח שברצונך למחוק נותן שירות זה?</string>
+    <string name="errRegulations">חובה לאשר את קריאת התקנון</string>
+    <string name="error_all_empty">נא הכנס לפחות בחירת חיפוש אחת</string>
+    <string name="error_empty">שדה חובה</string>
+    <string name="error_empty1">נא הכנס את כל הפרטים</string>
+    <string name="error_hours">שעת ההתחלה גדולה משעת הסיום</string>
+    <string name="error_in_alerts">תקלה בקבלת הגדרת התראות של לקוח זה</string>
+    <string name="error_in_alerts_in">תקלה בהגדרות ההתראות של לקוח זה</string>
+    <string name="error_in_register_to_provider">היתה בעיה בהרשמתך כספק</string>
+    <string name="error_in_send">ארעה בעיה בשליחה</string>
+    <string name="error_number">נא הכנס מספר תקין</string>
+    <string name="error_number2">ניתן להכניס עד 3 תוים למספר</string>
+    <string name="error_number6">ניתן להכניס עד 6 תוים למספר</string>
+    <string name="error_register">הכנס פרטים תקינים</string>
+    <string name="error_server">פרטים קיימים במערכת</string>
+    <string name="errornumbers">הכנס 3 ספרות</string>
+    <string name="event_name">שם האירוע</string>
+    <string name="existed_mail_for_worker">כתובת מייל זו הוכנסה כבר על ידך לעובד אחר</string>
+    <string name="existed_phone_for_worker">מספר טלפון זה הוכנס כבר על ידך לעובד אחר</string>
+    <string name="existed_user">משתמש קיים</string>
+    <string name="exists_mail_error">כתובת מייל זו קיימת כבר לספק או לעובד אחר</string>
+    <string name="exists_phone_error">מספר טלפון זה קיים כבר לספק או לעובד אחר</string>
+    <string name="exit">יציאה</string>
+    <string name="exit_question">האם ברצונך לצאת מהאפליקציה?</string>
+    <string name="exit_question_r">לשם קביעת התור, נדרש לעבור תהליך רישום לאפליקציה</string>
+    <string name="exit_r">רישום לאפליקציה</string>
+    <string name="exit_to_customer_question">האם אתה בטוח שברצונך לצאת מהרשמת ספק?</string>
+    <string name="faxerror">נא להכניס מס\' פקס תקין בן 9 ספרות</string>
+    <string name="fidbakAdvice">חוות דעת</string>
+    <string name="finish">סיים</string>
+    <string name="fir">ו\'</string>
+    <string name="first_name">שם</string>
+    <string name="first_name_">*שם פרטי</string>
+    <string name="first_name_not_correct">השם פרטי אינו תקין</string>
+    <string name="fnameerror">נא הכנס שם פרטי תקין</string>
+    <string name="from">מ:</string>
+    <string name="from_date">מתאריך</string>
+    <string name="from_hour">משעה</string>
+    <string name="galary">צרף תמונה מאלבום התמונות</string>
+    <string name="gallery">גלריה</string>
+    <string name="general_error_msg">אירעה שגיאה בלתי צפויה, אנא נסו שוב מאוחר יותר.</string>
+    <string name="giving_service">נותני שירות</string>
+    <string name="gps_network_not_enabled">גישה למיקום שלך לא מאופשרת במכשירך \n האם ברצונך לאפשר זאת?</string>
+    <string name="help">עזרה</string>
+    <string name="help_txt">נשמח לעזור לך בכל שאלה ובקשה, צוות Bthere</string>
+    <string name="hour">שעה</string>
+    <string name="hours">שעות</string>
+    <string name="hours_not_correct">השעות אינן חוקיות</string>
+    <string name="hours_not_correct2">השעות אינן תקינות</string>
+    <string name="i_want_to_order">אני רוצה להזמין</string>
+    <string name="icons">אייקונים וסימונים</string>
+    <string name="if_to_see">האם להציג את המחירון ללקוחות?</string>
+    <string name="if_to_see_1">האם להראות ללקוח</string>
+    <string name="image">תמונה</string>
+    <string name="in">ב</string>
+    <string name="in_day">ביום</string>
+    <string name="information">אודות</string>
+    <string name="informationBusines">אודות בית העסק</string>
+    <string name="information_service">אם את בעלת שיער ארוך, אל תחליטי "לקצר תהליכים", ונסי להשאירו ארוך ככל שניתן לפני שאת מבקרת אצל המעצב (ורצוי לתאם תור כבר חודשיים לפני, במיוחד אצל מעצבים מוכרים). כך יוכל המעצב לייצר מגוון רחב של אפשרויות ללא הגבלה. חשוב לדעת כי לא חייבים לבוא עם שיער אסוף למעצב, אלא אפשר להשאיר אותו פזור כמות שהוא, ועדיין לעצב אותו במגוון דרכים אופנתיות, משוחררות ובעיקר יצירתיות. כפי שכבר נאמר, ככל שהשיער ארוך יותר, כך אפשרויות העיצוב רחבות יותר, אבל גם לבעלות שיער קצר יש אפשרויות רבות. אחת מהן היא לבחור ב"תוספת לשיער" (פאות ותוספות שיער).</string>
+    <string name="initial_calendar_view">תצוגת יומן ראשונית</string>
+    <string name="input_city_for_search">הזן עיר לחיפוש</string>
+    <string name="invalid_hours">נבחרו שעות לא תקינות</string>
+    <string name="item_distance">ק"מ ממיקומך</string>
+    <string name="item_ranking">דירוג:</string>
+    <string name="item_voters">מדרגים</string>
+    <string name="last_minute_sale">מבצעי הדקה ה-90</string>
+    <string name="last_name">שם משפחה</string>
+    <string name="last_name_">*שם משפחה</string>
+    <string name="last_name_not_correct">השם משפחה אינו תקין</string>
+    <string name="length_of_queues">משך תקופת סדרת התורים (בשבועות)</string>
+    <string name="less_1">הנחה בהזמנת סדרת תורים</string>
+    <string name="less_2">הנחה בהזמנת 2 מוצרים או יותר</string>
+    <string name="list">רשימה</string>
+    <string name="lnameerror">נא הכנס שם משפחה תקין</string>
+    <string name="log_out_title">התנתקות</string>
+    <string name="login">משתמש קיים? התחבר</string>
+    <string name="login2"><u>משתמש קיים? התחבר</u></string>
+    <string name="login_">התחבר</string>
+    <string name="login_business">והוסף את העסק שלך ל</string>
+    <string name="logo">לוגו</string>
+    <string name="logout">התנתקות</string>
+    <string name="logout_question">האם אתה בטוח שברצונך להתנתק?</string>
+    <string name="looking_for_location">מחפש את מיקומך</string>
+    <string name="m1">ינואר</string>
+    <string name="m10">אוקטובר</string>
+    <string name="m11">נובמבר</string>
+    <string name="m12">דצמבר</string>
+    <string name="m2">פברואר</string>
+    <string name="m3">מרץ</string>
+    <string name="m4">אפריל</string>
+    <string name="m5">מאי</string>
+    <string name="m6">יוני</string>
+    <string name="m7">יולי</string>
+    <string name="m8">אוגוסט</string>
+    <string name="m9">ספטמבר</string>
+    <string name="mail">אימייל</string>
+    <string name="mail1">מייל</string>
+    <string name="mail_error">כתובת האימייל כבר קימת במערכת</string>
+    <string name="mail_not_correct">המייל אינו תקין</string>
+    <string name="mailerror">כתובת אימייל שגויה</string>
+    <string name="makingApointment">לקביעת תור</string>
+    <string name="meet_details">פרטי פגישה</string>
+    <string name="meetings_number">מספר תורים</string>
+    <string name="message_not_come_from_server">הנתונים עדיין לא נטענו,נסה שוב</string>
+    <string name="messages">הודעות</string>
+    <string name="messege2">משפט מפתח - סלוגן</string>
+    <string name="messege3">מבצעים לנרשמים הראשונים</string>
+    <string name="min">דק</string>
+    <string name="mon">ב\'</string>
+    <string name="month">חודש</string>
+    <string name="more_information">מידע נוסף</string>
+    <string name="must_fields">הזן פרטים חסרים</string>
+    <string name="my_customers">הלקוחות שלי</string>
+    <string name="my_giving_service">נותני השירות שלי</string>
+    <string name="my_qweues_list">רשימת התורים שלי</string>
+    <string name="my_waiting_list">רשימת ההמתנה שלי</string>
+    <string name="name">שם פרטי ושם משפחה</string>
+    <string name="name_not_correct">השם אינו תקין</string>
+    <string name="name_product">שם מוצר</string>
+    <string name="name_service">שם שירות</string>
+    <string name="name_worker">שם משתמש</string>
+    <string name="nameerror">נא הכנס שם תקין</string>
+    <string name="navigate">נווט</string>
+    <string name="new_app_provider_txt">ספק</string>
+    <string name="new_appointment">תור חדש</string>
+    <string name="new_appointment_to_customer">תור חדש</string>
+    <string name="new_appointment_to_customer_">קביעת תור חדש</string>
+    <string name="new_code">קוד חדש</string>
+    <string name="new_cus_name_txt">לקוח</string>
+    <string name="new_event">אירוע חדש</string>
+    <string name="new_operation">מבצע חדש</string>
+    <string name="new_operation_txt">לקוח</string>
+    <string name="new_qwestion">שאלה חדשה</string>
+    <string name="new_sale">העלאת מבצע</string>
+    <string name="no">לא</string>
+    <string name="no_90_sales">אין מבצעים כרגע</string>
+    <string name="no_all">נא הכנס את כל הפרטים</string>
+    <string name="no_connection_try_again">אין חיבור לאינטרנט. נסה שוב?</string>
+    <string name="no_empty_qweue">אין תור פנוי התואם את בקשתך.</string>
+    <string name="no_empty_qweue_after_update">אין תור פנוי התואם את השינויים.</string>
+    <string name="no_enough_space">אין מספיק מקום במכשיר</string>
+    <string name="no_enter_correct">לא הכנסת נתונים תקינים</string>
+    <string name="no_found_free_days_to_this_service_provider">לא נמצאו תורים פנויים לנותן שירות זה</string>
+    <string name="no_found_giving_service">לא נמצאו נותני שירות לספק זה</string>
+    <string name="no_found_orders_to_this_customer">לא נמצאו תורים ללקוח זה</string>
+    <string name="no_found_qweues">לספק זה אין תורים פנויים</string>
+    <string name="no_found_results_to_this_word">לא נמצאו תוצאות חיפוש למילה זו</string>
+    <string name="no_found_results_to_your_search">לא נמצאו ספקים מתאימים לחיפוש שלך</string>
+    <string name="no_found_services_to_this_provider">לא נמצאו שירותים לספק זה</string>
+    <string name="no_free_quewes_in_this_time">אין תור פנוי בזמן זה</string>
+    <string name="no_get_Coupon_Type_Options">לא התקבלו סוגי קופון</string>
+    <string name="no_in_this_day">אין תור פנוי ביום זה</string>
+    <string name="no_internet_connection">לא נמצא חיבור לאינטרנט</string>
+    <string name="no_order">אין תורים שנקבעו על ידך</string>
+    <string name="no_prepared">תכונה זו כרגע בפיתוח</string>
+    <string name="no_sort_by_distance">מיון לפי מרחק לא רלונטי לחיפוש זה</string>
+    <string name="no_waiting_list">אינך נמצא ברשימות ההמתנה של הספקים</string>
+    <string name="no_word_for_search">נא הזן ערך לחיפוש</string>
+    <string name="no_working_hours">אין שעות פעילות ביום זה</string>
+    <string name="not_correct">לא תקין</string>
+    <string name="not_erase">נותן השירות לא נמחק,נסה שנית</string>
+    <string name="not_erase_from_w">מחיקת שמך מרשימת ההמתנה נכשלה</string>
+    <string name="not_fill_all">לצורך שליחת PDF למייל, נא מלא את הפרטים הנדרשים</string>
+    <string name="not_matching_error">שעות העבודה וההפסקה לא מתואמות</string>
+    <string name="not_success_to_print">תקלה בשליחת PDF למייל</string>
+    <string name="np_number_picker_decrement_button">Decrement</string>
+    <string name="np_number_picker_increment_button">Increment</string>
+    <string name="numCard">מספר כרטיס</string>
+    <string name="num_customers_txt">מס\' לקוחות</string>
+    <string name="number">מספר</string>
+    <string name="number_of_Payments">מספר תשלומים</string>
+    <string name="number_q">תור מספר</string>
+    <string name="ok">אישור</string>
+    <string name="ok_and_delete">אשר ומחק</string>
+    <string name="ok_and_send_cancel">אשר ושלח ביטול</string>
+    <string name="ok_by_provider_1">ניתן לראות את התור ביומן האישי</string>
+    <string name="ok_by_provider_2">ואנחנו נזכיר לך שקבענו יום לפני המועד</string>
+    <string name="ok_get">אני מאשר קבלת מידע פרסומי</string>
+    <string name="ok_payment">אישור ותשלום</string>
+    <string name="ok_read">קראתי את התקנון ואני מאשר את תנאי השימוש</string>
+    <string name="on_the_system">על המערכת</string>
+    <string name="open_camera">צלם תמונה</string>
+    <string name="open_location_settings">פתיחת הגדרות מיקום</string>
+    <string name="option_1">הכנס לרשימת המתנה</string>
+    <string name="option_2">תורים פנויים קרובים</string>
+    <string name="option_2_2">השאר את התור הקיים</string>
+    <string name="option_3">החלף יום</string>
+    <string name="option_4">חפש ספק אחר</string>
+    <string name="option_4_2">ביטול התור</string>
+    <string name="order">הזמן</string>
+    <string name="order_not_free">תודה שנרשמת! לצערינו בזמן הזה התור שבקשת נקבע כבר ע"י לקוח קיים של המערכת, הינך מועבר ליומן שנית על מנת לבחור זמן אחר לשירות המבוקש.</string>
+    <string name="oreder_details">פרטי ההזמנה</string>
+    <string name="owner_of_card">שם בעל הכרטיס</string>
+    <string name="p_details_ques">האם ברצונך להשאיר פרטי תשלום?</string>
+    <string name="passerror">נא הכנס סיסמה תקינה</string>
+    <string name="password">סיסמא</string>
+    <string name="payment">תשלום</string>
+    <string name="paymentTitle">אמצעי תשלום</string>
+    <string name="payment_at_the_app">תשלום באפליקציה</string>
+    <string name="payment_credit_card">תשלום באמצעות כרטיס אשראי</string>
+    <string name="per_det_t1_">רישום מהיר באמצעות</string>
+    <string name="per_det_t3_">או מלא את הפרטים הבאים:</string>
+    <string name="per_det_title_">הרשמה</string>
+    <string name="permanent_appointment">קבע תור</string>
+    <string name="personal_datails">פרטים אישיים</string>
+    <string name="personal_details_new">חדש! תשלום ישיר לספק. לא הגעת? לא שילמת!</string>
+    <string name="personal_picture">העלאת תמונה</string>
+    <string name="phone">מספר טלפון</string>
+    <string name="phone1">טלפון</string>
+    <string name="phone__">*מס\' טלפון</string>
+    <string name="phone_error">מספר הטלפון כבר קיים במערכת</string>
+    <string name="phone_exists_error">מספר הטלפון לא  קיים במערכת</string>
+    <string name="phone_not_correct">הטלפון אנו תקין</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="phoneerror">נא להכניס מס\' טלפון נייד תקין בן 10 ספרות</string>
+    <string name="phoneerror2">מספר שגוי</string>
+    <string name="pick">בחר איש צוות</string>
+    <string name="pick_all">בחר הכל</string>
+    <string name="pick_place">בחר מיקום</string>
+    <string name="picture">תמונה</string>
+    <string name="please_wait">אנא המתן...</string>
+    <string name="price">מחיר (ש\"ח)</string>
+    <string name="print_calendar">הדפס יומן</string>
+    <string name="product_or_service_text">שירות/מוצר</string>
+    <string name="provider_exists">הנך מחובר כבר כעסק</string>
+    <string name="q4">Bthere - ברוכים הבאים</string>
+    <string name="que_limit_set_app">האם ברצונך להגביל את סדרת התורים שהלקוח יכול להזמין?</string>
+    <string name="que_limit_set_app1">האם ברצונך להגביל את</string>
+    <string name="que_limit_set_app2">סדרת התורים?</string>
+    <string name="qwestion">שאלה</string>
+    <string name="qweue_canceled">התור בוטל</string>
+    <string name="racehours_error">שעות ההפסקה לא תואמות</string>
+    <string name="ranking">דירוג</string>
+    <string name="ranking_">דירוג: %1$s</string>
+    <string name="rankings">מדרגים</string>
+    <string name="regolations_cancel">ביטול</string>
+    <string name="regulation_to_user">תקנון ותנאי השימוש</string>
+    <string name="regulations"><u>לתקנון</u></string>
+    <string name="regulations_">פרטי התקנון</string>
+    <string name="regulations_ok">אישור</string>
+    <string name="report_operational_utilization">דוח ניצולת תפעולית</string>
+    <string name="reports">דוחות</string>
+    <string name="reports_customers_birthdays">ימי ההולדת של הלקוחות</string>
+    <string name="reports_customers_with_a_select_period_of_time_line">לקוחות בעלי תור בתקופת זמן נבחרת</string>
+    <string name="reports_lines_b_dividing_service_providers">תורים לפי חלוקת לנותני שירות</string>
+    <string name="reports_lines_by_dividing_service">תורים לפי חלוקה לשירות</string>
+    <string name="reports_new_customers">לקוחות חדשים</string>
+    <string name="reports_number_of_customers">מספר לקוחות</string>
+    <string name="reports_number_of_lines">מספר תורים</string>
+    <string name="reports_operational_utilization">ניצולת תפעולית</string>
+    <string name="reports_payment_via_app">תשלום דרך האפליקציה</string>
+    <string name="reports_turns_customer_come_or_do_not_come">תורים שהלקוח הגיע / לא הגיע</string>
+    <string name="reports_turns_determined_by_the_customer_or_supplier">תורים שנקבעו ע“י הלקוח / הספק</string>
+    <string name="required">*שדה חובה</string>
+    <string name="required_fields">כל השדות הינן שדות חובה</string>
+    <string name="s_discount_text">הנחה בהזמנת סדרת תורים / 2 מוצרים ויותר</string>
+    <string name="s_service_text">שם השירות/המוצר</string>
+    <string name="s_space_time_text">מרווח זמן (דק\')</string>
+    <string name="s_time_text">משך זמן (דק\')</string>
+    <string name="s_view_calendar_text">תצוגת היומן</string>
+    <string name="sale">מבצע</string>
+    <string name="same_hours">האם השעות זהות לשעות פעילות העסק?</string>
+    <string name="sav">שמור</string>
+    <string name="save">שמור והמשך</string>
+    <string name="saveEnter">שמור והמשך</string>
+    <string name="save_">שמור</string>
+    <string name="save_continue">שמור והמשך</string>
+    <string name="search">חפש</string>
+    <string name="search_customer">חיפוש לקוח</string>
+    <string name="search_et">חפש נותן שירות או תחום</string>
+    <string name="search_results">תוצאות חיפוש</string>
+    <string name="see">תצוגה</string>
+    <string name="see_">צפה</string>
+    <string name="send">שלח</string>
+    <string name="send_">שלח הודעת אישור ללקוח</string>
+    <string name="send_again">שלח שוב</string>
+    <string name="send_delay">שלח הודעת איחור</string>
+    <string name="send_pdf">שלח pdf למייל</string>
+    <string name="send_second">לא קיבלתי את הקוד,</string>
+    <string name="service_name_error">נא הכנס שם תקין</string>
+    <string name="service_product">שם מוצר/שירות</string>
+    <string name="set_event">קבע אירוע</string>
+    <string name="shach">ש"ח</string>
+    <string name="shoe_bussiness_title">דרג את העסק</string>
+    <string name="sign_up">הרשם</string>
+    <string name="site">אתר</string>
+    <string name="site_error">שם האתר שגוי</string>
+    <string name="sloganBusines">סלוגן</string>
+    <string name="social_network">(לחץ על האייקון לסנכרון)</string>
+    <string name="social_network1">רשתות חברתיות</string>
+    <string name="sort_by">מיון לפי:</string>
+    <string name="street">רחוב</string>
+    <string name="subject">נושא</string>
+    <string name="successEmail">המייל נשלח בהצלחה</string>
+    <string name="success_in_alerts">הגדרות ההתראות נשמרו בהצלחה</string>
+    <string name="success_in_alerts_get">הגדרות ההתראות התקבלו</string>
+    <string name="success_to_print">נשלח PDF למייל בהצלחה</string>
+    <string name="sun">א\'</string>
+    <string name="supplier">ספק</string>
+    <string name="syn_with_google_calendar">סנכרון עם יומן גוגל כברירת מחדל</string>
+    <string name="syn_with_my_calendar">סנכרון עם היומן שלי</string>
+    <string name="thankFidbak1">, אשמח לראותך</string>
+    <string name="thankFidbak3">תודה</string>
+    <string name="thank_you">תודה רבה</string>
+    <string name="the_90_minute">הדקה ה-90</string>
+    <string name="the_bussiness_closed">העסק סגור</string>
+    <string name="the_image_didnt_load">התמונה לא עלתה</string>
+    <string name="there_are_no_coupons_to_this_provider">לא נמצאו מבצעים לספק זה</string>
+    <string name="there_are_no_providers_to_this_customer">לא נמצאו ספקים ללקוח זה</string>
+    <string name="there_are_problem">ישנה תקלה בשרת אנא נסה שנית מאוחר יותר</string>
+    <string name="there_is_error">ישנה בעיה בקבלת הנתונים</string>
+    <string name="threeNumbers">3 ספרות בגב הכרטיס</string>
+    <string name="thur">ה\'</string>
+    <string name="time">משך זמן</string>
+    <string name="timeActivy">שעות פעילות</string>
+    <string name="timeHours">טווח שעות</string>
+    <string name="time_period">מרוח זמן</string>
+    <string name="title_fragment_business_profile">דף פרופיל עסקי</string>
+    <string name="to">עד:</string>
+    <string name="to_date">עד תאריך</string>
+    <string name="to_hour">עד שעה</string>
+    <string name="to_the_full_reports">לרשימת הדוחות המלאה</string>
+    <string name="to_the_next">לתור הבא</string>
+    <string name="to_the_regulations">לתקנון ולתנאי השימוש</string>
+    <string name="too_long_adress">נדרש להכניס כתובת תקינה עד 30 תוים</string>
+    <string name="too_long_chet_pe">ניתן להכניס רק 9 תוים</string>
+    <string name="too_long_phone">נדרש להכניס מס\' טלפון נייד תקין בן 10 ספרות</string>
+    <string name="too_long_price">ניתן להכניס עד 6 תוים</string>
+    <string name="too_long_service_name">ניתן להכניס עד 30 תוים</string>
+    <string name="too_long_slogen">ניתן להכניס עד 120 תוים</string>
+    <string name="too_long_space">ניתן להכניס עד 2 תוים</string>
+    <string name="too_long_time">ניתן להכניס עד 3 תוים</string>
+    <string name="tor">לקביעת תור</string>
+    <string name="tues">ג\'</string>
+    <string name="type_of_card">סוג כרטיס</string>
+    <string name="type_service">סוג השירות</string>
+    <string name="tz">ת.ז</string>
+    <string name="update">עדכן</string>
+    <string name="update_app">עדכן תור</string>
+    <string name="update_appointment">עדכון תור-%1$s</string>
+    <string name="update_appointment2">עדכון תור</string>
+    <string name="update_datails">עדכן פרטים</string>
+    <string name="update_details">עדכון פרטים</string>
+    <string name="update_ok">התור התעדכן לפי השינויים</string>
+    <string name="update_user_not_s">בעיה בעדכון הפרטים במערכת</string>
+    <string name="update_user_s">פרטיך התעדכנו במערכת</string>
+    <string name="user_name">שם משתמש</string>
+    <string name="using">ניצולת תפעולית</string>
+    <string name="utilize_in_month_1">החודש נוצלו</string>
+    <string name="utilize_in_month_2">מתוך</string>
+    <string name="utilize_in_month_3">שעות</string>
+    <string name="valid">תקין</string>
+    <string name="validity">תוקף</string>
+    <string name="verification_empty">נא הכנס קוד אימות</string>
+    <string name="verification_error">קוד אימות שגוי</string>
+    <string name="verification_error_1">הכנסת קוד אימות שגוי. לאחר 3 נסיונות האפליקציה תסגר</string>
+    <string name="verification_mail1">הודעת אימות</string>
+    <string name="verification_mail2">אנא הכנס את הקוד שנשלח למכשירך</string>
+    <string name="verification_mail3">הודעה נשלחה לתיבת הדוא"ל שלך.</string>
+    <string name="verification_mail4">היכנס להשלמת ההרשמה.</string>
+    <string name="verification_mail_send">שלח</string>
+    <string name="vip">v.i.p</string>
+    <string name="vip_">V.I.P</string>
+    <string name="voteres">מדרגים</string>
+    <string name="voters">מדרגים %1$s</string>
+    <string name="waiting_list">רשימת המתנה</string>
+    <string name="way">%1$s , %2$s ק"מ ממקומך.</string>
+    <string name="wed">ד\'</string>
+    <string name="week">שבוע</string>
+    <string name="wel_txt">כעת קבע הרשאות עובדים לפי מוצר</string>
+    <string name="welcome">ברוך הבא,</string>
+    <string name="welcome1">ברוכים הבאים ל</string>
+    <string name="welcome2">לפתיחת יומן ופרופיל עסקי,</string>
+    <string name="welcome3">נא מלאו את הפרטים הבאים.</string>
+    <string name="welcome4">אישור</string>
+    <string name="welcome_no_thank">לא, תודה</string>
+    <string name="what_do_you_think_of">מה דעתך על העסק?</string>
+    <string name="what_you_want_to_do">מה ברצונך לעשות?</string>
+    <string name="worker_diary">האם תרצה לפתוח לעובד זה יומן אישי?</string>
+    <string name="working_hours">שעות עבודה</string>
+    <string name="workinghours_error">שעות העבודה לא תואמות</string>
+    <string name="year">שנה</string>
+    <string name="yes">כן</string>
+    <string name="your_ask_1">בקשתך נשלחה ל</string>
+    <string name="your_ask_2">לאישור</string>
+    <string name="about_the_application">הסבר אודות האפליקציה, המקימים, המטרות וכו‘. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג -.</string>
+    <string name="to_the_movie">לסרטון ההדרכה</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>היומן שלי</item>
+        <item>נותני השירות\nשלי</item>
+        <item>הגדרות</item>
+        <item>אודותינו</item>
+        <item>התחבר כעסק</item>
+        <item>הדפס</item>
+        <item>התנתק</item>
+    </string-array>
+
+
+
+    <string-array name="product_or_service">
+        <item>שירות</item>
+        <item>מוצר</item>
+    </string-array>
+
+    <string-array name="definitions_txt">
+        <item>פרטים\nאישיים</item>
+        <item>פרטי\nהעסק</item>
+        <item>נתונים\nכלליים</item>
+        <item>התראות</item>
+        <item>דף פרופיל\nעסקי</item>
+        <item>סנכרון\nאנשי קשר</item>
+        <item>תשלום</item>
+        <item>שפה</item>
+    </string-array>
+    <!--,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+    <string-array name="al_min">
+        <item>30 דקות</item>
+        <item>........</item>
+        <item>........</item>
+        <item>........</item>
+    </string-array>
+    <string-array name="s_service">
+        <item>תספורת גבר</item>
+        <item>תספורת אישה</item>
+        <item>תספורת ילד</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="s_time">
+        <item>30 דקות</item>
+        <item>20 דקות</item>
+        <item>10 דקות</item>
+        <item>........</item>
+    </string-array>
+
+
+    <string-array name="s_less">
+        <item>3%</item>
+        <item>5%</item>
+        <item>7%</item>
+        <item>10%</item>
+    </string-array>
+
+
+    <string-array name="s_space_time">
+        <item>30 דקות</item>
+        <item>20 דקות</item>
+        <item>10 דקות</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="s_discount">
+        <item>3%</item>
+        <item>5%</item>
+        <item>7%</item>
+        <item>10%</item>
+    </string-array>
+
+    <string-array name="det_app_date">
+        <item>1/1/2016</item>
+        <item>2/1/2016</item>
+        <item>3/1/2016</item>
+        <item>4/1/2016</item>
+    </string-array>
+
+    <string-array name="det_app_hour">
+        <item>2:00</item>
+        <item>3:00</item>
+        <item>4:00</item>
+        <item>5:00</item>
+    </string-array>
+
+    <string-array name="num_customers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="al_up_1">
+        <item>יום הולדת</item>
+        <item>........</item>
+        <item>........</item>
+        <item>........</item>
+    </string-array>
+
+
+    <string-array name="al_up_2">
+        <item>חודשי</item>
+        <item>יומי</item>
+        <item>שנתי</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="al_cus_2">
+        <item>חודשי</item>
+        <item>יומי</item>
+        <item>שנתי</item>
+        <item>........</item>
+    </string-array>
+
+    <string-array name="phone_start">
+        <item>050</item>
+        <item>052</item>
+        <item>053</item>
+        <item>054</item>
+        <item>055</item>
+        <item>058</item>
+    </string-array>
+    <string-array name="new_cus_name">
+        <item>לירון חזיז</item>
+        <item>רחל גוטמן</item>
+        <item>יסמין גנזי בן לולו</item>
+        <item>שירן רץ</item>
+    </string-array>
+
+    <string-array name="new_operation">
+        <item>הנחה</item>
+        <item>1+1</item>
+        <item>50%</item>
+    </string-array>
+
+
+    <string-array name="det_app_type_service">
+        <item>תספורת גבר</item>
+        <item>תספורת אישה</item>
+        <item>גוונים</item>
+        <item>פן</item>
+    </string-array>
+    <!--,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,-->
+    <!--menu-->
+    <string-array name="trialgle_strings_menu">
+        <item>תור \n חדש</item>
+        <item>ארוע \n חדש</item>
+        <item>עדכון\n תור קיים</item>
+        <item>רשימת \n המתנה</item>
+        <item>איחור \n בקטנה</item>
+        <item>לא \n מגיע</item>
+        <item>הדקה \n ה-90</item>
+        <item>עזרה</item>
+    </string-array>
+
+    <string-array name="trialgle_strings_menu_supplier">
+        <item>תור \n חדש</item>
+        <item>חסימת\nשעות</item>
+        <item>הדקה \n ה-90</item>
+        <item>מספר\nלקוחות\nבמקביל</item>
+        <item>רשימת \n המתנה</item>
+        <item>עדכון\nהתור\nהקרוב</item>
+        <item>הודעות</item>
+        <item>עזרה</item>
+        <item> </item>
+    </string-array>
+
+    <string-array name="credit_card_type">
+        <item>ויזה</item>
+        <item>ישראכרט</item>
+        <item>לאומי קארד</item>
+    </string-array>
+
+    <string-array name="credit_card_num_p">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>ינואר</item>
+        <item>פבואר</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אגואסט</item>
+        <item>ספטמבר</item>
+        <item>אוקטבר</item>
+        <item>נובמבר</item>
+        <item>דצמבר</item>
+    </string-array>
+
+    <string-array name="meetings_number_spinner">
+        <item>6</item>
+        <item>10</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="length_of_queues_spinner">
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="definitions_from_the_customer_txt">
+        <item>פרטים\nאישיים</item>
+        <item>התראות</item>
+        <item>תשלום</item>
+        <item>שפה</item>
+    </string-array>
+
+
+    <string-array name="initial_calendar_view_spinner">
+        <item>תצוגת יום</item>
+        <item>תצוגת שבוע</item>
+        <item>תצוגת חודש</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+
+    <string-array name="supplier_navigation_drawer_items_array">
+        <item>היומן שלי</item>
+        <item>דף העסק</item>
+        <item>לקוחות</item>
+        <item>הגדרות</item>
+        <item>דוחות</item>
+        <item>אודותינו</item>
+        <item>הדפס</item>
+        <item>התנתק</item>
+    </string-array>
+
+    <!--//////////////////////////////////////////////////////////////-->
+    <!--///////////////////custom spinner/////////////////////////////-->
+
+    <!--//first view calendar-->
+    <string-array name="cal_f_view">
+        <item>תצוגת יום</item>
+        <item>תצוגת שבוע</item>
+        <item>תצוגת חודש</item>
+    </string-array>
+
+
+    <!--//alert_meeting-->
+
+    <string-array name="al_meet">
+        <item>הכל</item>
+        <item>פגישה נכנסת</item>
+        <item>שינוי פרטי פגישה</item>
+        <item>ביטול פגישה</item>
+    </string-array>
+
+
+    <string-array name="al_cus_1">
+        <item>הודעה</item>
+        <item>פופ אפ</item>
+        <item>מייל</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>א\'</item>
+        <item>ב\'</item>
+        <item>ג\'</item>
+        <item>ד\'</item>
+        <item>ה\'</item>
+        <item>ו\'</item>
+    </string-array>
+
+    <string-array name="ordering_list">
+        <item>שירות</item>
+        <item>מוצר</item>
+        <item>סדרת תורים</item>
+        <item>שובר מתנה</item>
+    </string-array>
+
+    <string-array name="staff_member_list">
+        <item> לא משנה לי</item>
+        <item>איש צוות 1</item>
+        <item>איש צוות 2</item>
+        <item>איש צוות 3</item>
+    </string-array>
+
+    <string-array name="reports_list">
+        <item>ניצולת תפעולית</item>
+        <item>מספר לקוחות</item>
+        <item>לקוחות חדשים</item>
+        <item>לקוחות בעלי תור בתקופת זמן נבחרת</item>
+        <item>ימי ההולדת של הלקוחות</item>
+        <item>מספר תורים</item>
+        <item>תורים לפי חלוקה לשירות</item>
+        <item>תורים לפי חלוקת לנותני שירות</item>
+        <item>תורים שהלקוח הגיע / לא הגיע</item>
+        <item>תורים שנקבעו ע“י הלקוח / הספק</item>
+        <item>תשלום דרך האפליקציה</item>
+    </string-array>
+    <string name="no_connection">אין חיבור!</string>
+    <string name="read_more"><u>קרא עוד</u></string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/search_line_kl"
+        android:layout_width="310dp"
+        android:layout_height="46.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23.5dp"
+        android:background="@color/color8"
+        android:orientation="vertical">
+
+
+        <View
+            android:id="@+id/search_line_k2"
+            android:layout_width="0.5dp"
+            android:layout_height="62dp"
+            android:layout_toEndOf="@+id/search_linek"
+            android:background="@color/view_color"
+            android:paddingStart="5dp" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustemLightAutoCompleteTextView
+            android:id="@+id/search_linek"
+            style="@style/t1"
+            android:layout_width="265dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:alpha="0.5"
+            android:background="#CBC5BE"
+            android:hint="@string/search_et"
+            android:imeOptions="actionSearch"
+            android:maxLength="120"
+            android:paddingEnd="5dp"
+            android:paddingStart="7dp"
+            android:singleLine="true"
+            android:textColorHint="@color/color1" />
+
+        <RelativeLayout
+            android:id="@+id/search_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/search_line_k2">
+
+            <ImageView
+                android:id="@+id/search_line_iconk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:background="@color/color8"
+                android:scaleType="fitXY"
+                android:src="@drawable/client_galaxy_icons1_21" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:id="@+id/advanced_search_btn"
+        style="@style/t1"
+        android:layout_width="125dp"
+        android:layout_height="46.5dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:background="@color/color3"
+        android:stateListAnimator="@null"
+        android:text="@string/advanced_search"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="310dp"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/advanced_search_btn"
+            android:background="@color/view_color" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/sign_up_btn"
+            style="@style/t1"
+            android:layout_width="125dp"
+            android:layout_height="46.5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:background="@color/color1"
+            android:stateListAnimator="@null"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+        android:layout_width="115dp"
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/user_login_tv"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:text="@string/login2" />
+
+        <!--<View-->
+        <!--android:id="@+id/v2"-->
+        <!--android:layout_width="135sp"-->
+        <!--android:layout_height="0.5dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_marginTop="1.5dp"-->
+        <!--android:background="@color/view_color" />-->
+    </LinearLayout>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+        android:id="@+id/language"
+        style="@style/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/Language" />
+</LinearLayout>

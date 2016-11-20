@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/title_message"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/verification_mail1"
+            android:textColor="@color/light_blue"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="3dp"
+            android:background="@color/transparent"
+            android:src="@drawable/xx" />
+    </RelativeLayout>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomRegularTextView
+        android:id="@+id/h1__message"
+        style="@style/t1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/verification_mail2" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+        android:id="@+id/et_verification_mail"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/h1__message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/color1"
+        android:inputType="numberDecimal"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:textColor="@color/color_white" />
+
+    <View
+        android:id="@+id/view_"
+        android:layout_width="260dp"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/et_verification_mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:background="@color/view_color" />
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        android:id="@+id/OK_send"
+        android:layout_width="92.5dp"
+        android:layout_height="36dp"
+        android:layout_below="@+id/view_"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_blue"
+        android:text="@string/continue2"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/OK_send"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/no_code"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/send_second" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/send_second"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="@string/send_again" />
+    </LinearLayout>
+</RelativeLayout>

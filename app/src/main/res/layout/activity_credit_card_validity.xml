@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/al_ty_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/custom_spinner_validity_ll"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingEnd="5dp"
+        android:paddingStart="5dp"
+        android:background="@color/transparent">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/al_type_txt"
+            style="@style/t1"
+            android:gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/validity"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_white"
+            android:layout_gravity="start|center_vertical"/>
+
+
+        <LinearLayout
+            android:id="@+id/c_s_ll3"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"           >
+            <LinearLayout
+                android:weightSum="5"
+                android:id="@+id/c_s_ll_"
+                android:gravity="center_vertical|end"
+                android:layout_width="77.5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:background="@color/light_gray_2">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/validity_spinner_m"
+                    style="@style/t1"
+                    android:gravity="start|center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="25dp"
+                    android:layout_gravity="start|center_vertical"
+                    android:background="@color/light_gray_2"
+                    android:paddingStart="5dp"
+                    android:text="@string/month"
+                    android:textColor="@color/color1" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/down_arrow" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:id="@+id/c_s_ll"
+                android:layout_marginStart="5dp"
+                android:gravity="center_vertical|end"
+                android:layout_width="87.5dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+
+                android:background="@color/light_gray_2">
+
+                <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                    android:id="@+id/validity_spinner_y"
+                    style="@style/t1"
+                    android:gravity="start|center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="25dp"
+                    android:layout_gravity="start|center_vertical"
+                    android:background="@color/light_gray_2"
+                    android:paddingStart="5dp"
+                    android:text="@string/year"
+                    android:textColor="@color/color1" />
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="end|center_vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/down_arrow" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

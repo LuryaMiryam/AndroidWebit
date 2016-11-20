@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/light_gray_9"
+    android:minWidth="400dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/title"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="@string/what_do_you_think_of"
+            android:textColor="@color/color3"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rr"
+        android:layout_centerHorizontal="true"
+        android:layout_width="280dp"
+        android:layout_height="140dp"
+
+        android:layout_gravity="center_horizontal">
+        <View android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="@color/color3" />
+        <View android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color3" />
+        <webit.bthereapp.CustemViews.Fonts.CustomLightEditText
+            android:layout_width="match_parent"
+            android:hint="@string/enter_txt"
+            android:gravity="start|top"
+            android:layout_height="match_parent"></webit.bthereapp.CustemViews.Fonts.CustomLightEditText>
+
+    </RelativeLayout>
+    <View android:layout_width="2dp"
+        android:layout_toEndOf="@+id/rr"
+        android:layout_height="140dp"
+        android:background="@color/color3" />
+</RelativeLayout>
+    <View android:layout_width="280dp"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/color3"
+        android:layout_marginBottom="15dp"/>
+
+    <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+        style="@style/t1"
+        android:layout_width="91.5dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:background="@color/color3"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/continue2"
+        android:layout_marginBottom="50dp"
+        android:textColor="@android:color/white" />
+
+
+</LinearLayout>
+
+
+
+
+
+

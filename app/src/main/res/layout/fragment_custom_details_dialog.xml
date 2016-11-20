@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="400dp"
+    android:orientation="vertical"
+    android:background="@color/light_gray_9">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/close"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginEnd="7.5dp"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/client_galaxy_icons1_22" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomBoldTextView
+            android:id="@+id/name_txt"
+            style="@style/h1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="13dp"
+            android:text=""
+            android:textColor="@color/light_blue"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="79dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/image_p"
+            android:layout_width="60dp"
+            android:layout_height="79dp"
+            android:layout_below="@+id/welcome_title_"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="19dp"
+
+            android:background="@color/color4">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/supplier_galaxy_icons_x1_32" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/supplier_galaxy_icons_x1_39" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="146.5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_p"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/adress_txt"
+            style="@style/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:gravity="start"
+            android:text=""
+            android:textColor="@color/color1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/mail_txt"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:text="sabch1@gmail.com"
+            android:textColor="@color/color1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/phone_txt"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:text="052-1116524"
+            android:textColor="@color/color1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/date_txt"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:text="24.3.1986"
+            android:textColor="@color/color1" />
+
+        <View
+            android:id="@+id/viewLinear1"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="19dp"
+            android:background="@color/color1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+            android:id="@+id/massege_txt"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12.5dp"
+            android:text=""
+            android:textColor="@color/color1" />
+
+        <webit.bthereapp.CustemViews.Fonts.CustomLightButton
+            android:id="@+id/update"
+            style="@style/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_gravity="start"
+            android:textAllCaps="false"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color4"
+            android:text="@string/update_datails"
+            android:textColor="@android:color/white"
+           android:paddingStart="7dp"
+            android:paddingEnd="7dp"/>
+
+        <LinearLayout
+            android:paddingStart="7dp"
+            android:paddingEnd="7dp"
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/color4"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/image_d"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color4">
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/supplier_delete_garbege_white" />
+            </LinearLayout>
+
+            <webit.bthereapp.CustemViews.Fonts.CustomLightTextView
+                android:id="@+id/delete_cus"
+                style="@style/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/color4"
+                android:gravity="center_vertical"
+                android:paddingStart="10dp"
+                android:text="@string/delete_cus"
+
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

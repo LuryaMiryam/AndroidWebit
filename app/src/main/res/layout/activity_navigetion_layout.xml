@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_pic_client"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="70dp" />
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@color/dark_blue"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/list_divider"
+            android:dividerHeight="0.5dp" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <FrameLayout
+            android:id="@+id/con_bottom_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+        <webit.bthereapp.CustemViews.TriangleButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/triangle"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:background="@drawable/triangle_blue_2"/>
+
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/content_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>
